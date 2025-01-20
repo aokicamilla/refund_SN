@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="DELETE">
+        <default>true</default>
+        <sc_catalog display_value="Refund Catalog">cfeb71d4c3935210c07d190ed40131c4</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 17:43:17</sys_created_on>
+        <sys_id>de0c35d4c3935210c07d190ed4013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refund Catalog.catalog_refund_catalog</sys_name>
+        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_refund_catalog">520c35d4c3935210c07d190ed4013100</sys_portal_page>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_de0c35d4c3935210c07d190ed4013101</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 17:43:17</sys_updated_on>
+    </sc_catalog_view_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</application>
+        <file_path/>
+        <instance_id>408484101bad86d87d9d2f8dee4bcbb8</instance_id>
+        <instance_name>dev259545</instance_name>
+        <name>sc_catalog_view_mtom_de0c35d4c3935210c07d190ed4013101</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom"><sc_catalog_view_mtom action="INSERT_OR_UPDATE"><default>true</default><sc_catalog display_value="Refund Catalog">cfeb71d4c3935210c07d190ed40131c4</sc_catalog><sys_class_name>sc_catalog_view_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-20 17:43:17</sys_created_on><sys_id>de0c35d4c3935210c07d190ed4013101</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Refund Catalog.catalog_refund_catalog</sys_name><sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package><sys_policy/><sys_portal_page display_value="catalog_refund_catalog">520c35d4c3935210c07d190ed4013100</sys_portal_page><sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope><sys_update_name>sc_catalog_view_mtom_de0c35d4c3935210c07d190ed4013101</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-20 17:43:17</sys_updated_on></sc_catalog_view_mtom></record_update>]]></payload>
+        <payload_hash>-775329619</payload_hash>
+        <record_name>Refund Catalog.catalog_refund_catalog</record_name>
+        <reverted_from/>
+        <source>29969190c3df1210c07d190ed4013162</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 17:43:17</sys_created_on>
+        <sys_id>960c35d4c3935210c07d190ed4013105</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19484cfcaaf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 17:43:17</sys_updated_on>
+        <type>Catalog Portal Page</type>
+        <update_guid>9a0c35d4e193521035407bcb98de6b04</update_guid>
+        <update_guid_history>9a0c35d4e193521035407bcb98de6b04:-775329619</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Refund Catalog.catalog_refund_catalog">ea8cfdd4c3935210c07d190ed401318a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 17:45:30</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog_view_mtom">sc_catalog_view_mtom</sys_db_object>
+        <sys_id>141f2e54217c4a308803132e49b007a9</sys_id>
+        <sys_metadata>de0c35d4c3935210c07d190ed4013101</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refund Catalog.catalog_refund_catalog</sys_name>
+        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope_delete display_value="">1ff4e19919a643d9869c5b0e3e183311</sys_scope_delete>
+        <sys_update_name>sc_catalog_view_mtom_de0c35d4c3935210c07d190ed4013101</sys_update_name>
+        <sys_update_version display_value="sc_catalog_view_mtom_de0c35d4c3935210c07d190ed4013101">960c35d4c3935210c07d190ed4013105</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 17:45:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

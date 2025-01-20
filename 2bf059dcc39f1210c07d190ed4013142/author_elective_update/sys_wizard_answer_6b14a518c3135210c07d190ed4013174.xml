@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New Category</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Category</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">f13ab358310212108a7c7b974a26f252</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 15:58:47</sys_created_on>
+        <sys_id>6b14a518c3135210c07d190ed4013174</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Category</sys_name>
+        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_update_name>sys_wizard_answer_6b14a518c3135210c07d190ed4013174</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 15:58:47</sys_updated_on>
+        <table/>
+        <target_url>x_1593670_reembo_0_category.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</application>
+        <file_path/>
+        <instance_id>408484101bad86d87d9d2f8dee4bcbb8</instance_id>
+        <instance_name>dev259545</instance_name>
+        <name>sys_wizard_answer_6b14a518c3135210c07d190ed4013174</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>New Category</answer><button_label/><dependent_value/><element/><name>Category</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">f13ab358310212108a7c7b974a26f252</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-20 15:58:47</sys_created_on><sys_id>6b14a518c3135210c07d190ed4013174</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Category</sys_name><sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package><sys_policy/><sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope><sys_update_name>sys_wizard_answer_6b14a518c3135210c07d190ed4013174</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-20 15:58:47</sys_updated_on><table/><target_url>x_1593670_reembo_0_category.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1189141964</payload_hash>
+        <record_name>Category</record_name>
+        <reverted_from/>
+        <source>29969190c3df1210c07d190ed4013162</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 15:58:48</sys_created_on>
+        <sys_id>2714a518c3135210c07d190ed4013177</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19484701f010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 15:58:48</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>2b14a518c01352108482161d570d8076</update_guid>
+        <update_guid_history>2b14a518c01352108482161d570d8076:1189141964</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 16:52:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>2f1b5fe2ad9345209251d23ee21b6040</sys_id>
+        <sys_metadata>6b14a518c3135210c07d190ed4013174</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Category</sys_name>
+        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_parent display_value="Task">f13ab358310212108a7c7b974a26f252</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope_delete display_value="">1ff4e19919a643d9869c5b0e3e183311</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_6b14a518c3135210c07d190ed4013174</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_6b14a518c3135210c07d190ed4013174">2714a518c3135210c07d190ed4013177</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 16:52:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
