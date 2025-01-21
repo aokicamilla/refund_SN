@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=7127000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=14421000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,14 +15,14 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>refund_lifecycle</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Refund Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1593670_reembo_0_refund","column_name":"state","choices":[{"image":"","used":false,"label":"Requested","rawLabel":"Requested","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Awaiting Manager\u0027s Approval","rawLabel":"Awaiting Manager\u0027s Approval","selected":false,"missing":false,"reference":false,"value":"8","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Awaiting Payment","rawLabel":"Awaiting Payment","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Reproved","rawLabel":"Reproved","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Closed","rawLabel":"Closed","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}}],"usedInstances":{"5b6adbca-02f6-48ea-ba12-c8ebe9db33e5":["condition"]}},{"name":"236c6542-272c-4373-b3be-66ff6b07a096.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f1de4b87-15f8-4a69-9dbb-dca41183806c":["condition"],"592b27af-3c12-4104-86cd-e27a3d0daaa4":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.506a11d8c3df1210c07d190ed401311b}}","label":"Refund Operational Users Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}},{"name":"Created or Updated_1.current.category","label":"Trigger - Record Created or Updated➛Refund Record➛Category","reference":"x_1593670_reembo_0_refund_category","reference_display":"Refund Category","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund","column_name":"category","usedInstances":{"5a4950e7-892d-4727-8dfe-03196a9582e0":["conditions"]}},{"name":"Created or Updated_1.current.category.name","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"name","usedInstances":{}},{"name":"Created or Updated_1.current.category.assignement_group","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Assignement Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"assignement_group","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["assignment_group"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Refund Record","reference":"x_1593670_reembo_0_refund","reference_display":"Refund","type":"reference","base_type":"reference","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["record"],"236c6542-272c-4373-b3be-66ff6b07a096":["record"],"34a9e282-3060-4887-84c1-e5666360c3fc":["record"],"23503728-1374-4e50-bd7a-df31dbb88b3b":["record"],"c687e319-fb23-46c3-bb91-599d5bfd6a1b":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.opened_by.manager","label":"Trigger - Record Created or Updated➛Refund Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Refund Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1593670_reembo_0_refund","column_name":"state","choices":[{"image":"","used":false,"label":"Requested","rawLabel":"Requested","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Awaiting Manager\u0027s Approval","rawLabel":"Awaiting Manager\u0027s Approval","selected":false,"missing":false,"reference":false,"value":"8","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Awaiting Payment","rawLabel":"Awaiting Payment","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Reproved","rawLabel":"Reproved","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Closed","rawLabel":"Closed","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}}],"usedInstances":{"5b6adbca-02f6-48ea-ba12-c8ebe9db33e5":["condition"]}},{"name":"236c6542-272c-4373-b3be-66ff6b07a096.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f1de4b87-15f8-4a69-9dbb-dca41183806c":["condition"],"592b27af-3c12-4104-86cd-e27a3d0daaa4":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.506a11d8c3df1210c07d190ed401311b}}","label":"Refund Operational Users Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}},{"name":"Created or Updated_1.current.category","label":"Trigger - Record Created or Updated➛Refund Record➛Category","reference":"x_1593670_reembo_0_refund_category","reference_display":"Refund Category","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund","column_name":"category","usedInstances":{"5a4950e7-892d-4727-8dfe-03196a9582e0":["conditions"]}},{"name":"Created or Updated_1.current.category.name","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"name","usedInstances":{}},{"name":"Created or Updated_1.current.category.assignement_group","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Assignement Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"assignement_group","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["assignment_group"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Refund Record","reference":"x_1593670_reembo_0_refund","reference_display":"Refund","type":"reference","base_type":"reference","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["record"],"236c6542-272c-4373-b3be-66ff6b07a096":["record"],"34a9e282-3060-4887-84c1-e5666360c3fc":["record"],"23503728-1374-4e50-bd7a-df31dbb88b3b":["record"],"c687e319-fb23-46c3-bb91-599d5bfd6a1b":["record"],"c9dbdee5-b0b9-494c-a73c-446c31ed853e":["record"],"60596941-3e1f-47e8-9b04-6f6999d6437e":["record"],"3d4e1c01-e139-4d4a-9e9e-1431a79bac74":["record"],"0393ea20-f66a-4429-aed5-9ffd3a93fa3e":["conditions"]},"attributes":{}}]</label_cache>
         <master_snapshot>ef8496d4c3175210c07d190ed4013130</master_snapshot>
         <master_snapshot_digest/>
         <name>Refund LifeCycle</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>a38496d4c3175210c07d190ed4013171</remote_trigger_id>
+        <remote_trigger_id>cf764318c31b5210c07d190ed4013138</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2e539a54c3175210c07d190ed401318e</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>Refund LifeCycle</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name>sys_hub_flow_2e539a54c3175210c07d190ed401318e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:59</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:33</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -52,12 +52,11 @@
     <sys_variable_value action="delete_multiple" query="document_key=2e539a54c3175210c07d190ed401318e"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1593670_reembo_0_refund">amountISNOTEMPTY^expense_dateISNOTEMPTY^category.nameISNOTEMPTY^NQamountVALCHANGES^ORcategoryVALCHANGES^ORexpense_dateVALCHANGES<item endquery="false" field="amount" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <condition table="x_1593670_reembo_0_refund">amountISNOTEMPTY^expense_dateISNOTEMPTY^category.nameISNOTEMPTY^NQstateVALCHANGES^ORcategoryVALCHANGES<item endquery="false" field="amount" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="false" field="expense_date" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="false" field="category.name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item endquery="false" field="amount" goto="false" newquery="true" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="state" goto="false" newquery="true" operator="VALCHANGES" or="false" value=""/>
             <item endquery="false" field="category" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
-            <item endquery="false" field="expense_date" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -70,15 +69,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-20 19:30:26</sys_created_on>
+        <sys_created_on>2025-01-20 23:08:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>a38496d4c3175210c07d190ed4013171</sys_id>
+        <sys_id>cf764318c31b5210c07d190ed4013138</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 19:30:26</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:08:35</sys_updated_on>
         <table>x_1593670_reembo_0_refund</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
@@ -87,14 +86,14 @@
         <identifier>2e539a54c3175210c07d190ed401318e</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-20 21:23:59</sys_created_on>
-        <sys_id>0f8e6698c3975210c07d190ed40131d0</sys_id>
+        <sys_created_on>2025-01-20 23:25:33</sys_created_on>
+        <sys_id>3b5a0b5cc31b5210c07d190ed401313c</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:59</sys_updated_on>
-        <trigger display_value="">a38496d4c3175210c07d190ed4013171</trigger>
+        <sys_updated_on>2025-01-20 23:25:33</sys_updated_on>
+        <trigger display_value="">cf764318c31b5210c07d190ed4013138</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=2e539a54c3175210c07d190ed401318e^sys_idNOT IN0f8e6698c3975210c07d190ed40131d0"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=2e539a54c3175210c07d190ed401318e^sys_idNOT IN3b5a0b5cc31b5210c07d190ed401313c"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=2e539a54c3175210c07d190ed401318e"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=2e539a54c3175210c07d190ed401318e^sys_idNOT INe6539a54c3175210c07d190ed4013191"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -397,16 +396,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:29:07</sys_created_on>
         <sys_id>28449e94c3175210c07d190ed40131c2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 19:30:22</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:08:24</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=2e539a54c3175210c07d190ed401318e^sys_idNOT IN268456d4c3175210c07d190ed40131c6,2d8b2654c3975210c07d190ed401315e,bef69a98c3175210c07d190ed4013134,e18b2654c3975210c07d190ed401315c"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=2e539a54c3175210c07d190ed401318e^sys_idNOT IN268456d4c3175210c07d190ed40131c6,2d8b2654c3975210c07d190ed401315e,4b574358c31b5210c07d190ed40131f1,62958f94c31b5210c07d190ed4013194,62958f94c31b5210c07d190ed4013197,a076cfd4c31b5210c07d190ed4013180,bef69a98c3175210c07d190ed4013134,e18b2654c3975210c07d190ed401315c"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -422,10 +421,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:30:22</sys_created_on>
         <sys_id>268456d4c3175210c07d190ed40131c6</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:24:13</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:45</sys_updated_on>
         <ui_id>e2843c79-d7e9-4bfb-a92f-4cf790f449db</ui_id>
         <values>H4sIAAAAAAAA/+VWXW/aMBT9K8hPq0SjhAAlvE2gSpO6VqIbL11nmfiGWnPizHZoGcp/33U+AEHHWql7qMYL9r2+9jkn98S52xDByZj0gftBFAzjMAjDnu/3Rv1gMQwXQY+HDCAgXZKxFHClhlhpjvMVk4ULbDYTDcwC7yjd+ZpzN6SBFxdaQ2bLEpdyYXLJ1vOmAiPxg5Ac82R8d98lOdO4uQVNxpuD1EvRSbYAiUtnLbxDuHaduzlXcZEiLira4FVTOW0ynU9TzGCRgxP4XQJPFjIOCCRh0kCXpCxDlkqvydjqAgPIn99kcr1d8SAyWxNN2ZMRv/Dkvu/WJYDM4kaE7ZQ2AtXhZMosu8WdY1vorV5KxGBqTTgkrJB2sh+rF9zkVqisLrFsIdtqJYs0u64VIdsN9p5HYRAE5I6nQ17TSm4f1OOsBXkpskqShqJUMZPbGbNWi0VhHZwNAQmVxinLc5Etaa7VSlTFCCX1lhInXiLVI55pxDLzWOxwe6gq8y4xPq3Cc6aFI/EZt8HiskvM2kwkM2ZHBTWkPwuHpCbWUKCVCpUEtOoEVxxrkduPeNQKGuBlt+n/xeBUh8XRrqH29tx54IkGgygcXvhUA6QLRd0gKTJ+3PyzNv46C7wAYGuBL9WDfx5w44Kj2NV+bee6TjQeGLyZB0bvyQMNjXdvgr+1vt87+XLd66Sq281e2yMIRFixXGpV5N8K3w/56QvBi3G+xMbx6mrYlZfld2MxW28zOvbOPz/vdZ58gXKtJy8FSG6ekbI1JKRI1AKtpT0wZZPszJvk9nJ6M2cGQ7/6vSN//i93VBt0oA8N4GInS0jCaYWYBpRKpX7QIqf1N5HX/B3ZwrMKnyxq8uEMh1fqEfSEGfhwhuANWwGfb7/8BqwfDXy4OB9FPX7ev+jhiCdw7odBNGTRYNQD35v94Rz8NCzL8v43+nsjioMKAAA=</values>
     </sys_hub_action_instance_v2>
@@ -438,18 +437,106 @@
         <display_text/>
         <flow display_value="Refund LifeCycle">2e539a54c3175210c07d190ed401318e</flow>
         <generation_source/>
-        <order>6</order>
+        <order>8</order>
         <parent_ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:47</sys_created_on>
         <sys_id>2d8b2654c3975210c07d190ed401315e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:24:13</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:45</sys_updated_on>
         <ui_id>c687e319-fb23-46c3-bb91-599d5bfd6a1b</ui_id>
-        <values>H4sIAAAAAAAA/+VUXW/aMBT9K8jPEUoIsMLbBEKa1LUS3XjpqsiJb8CS8zF/UBjiv+86cUIEVUelvqDlyb4f9jkn5/r5QDgjUzIE5geTYJyEQRgOfH9wNwzicRgHAxZSgIB4JKcZYKWEpJAM91sqjA0cDjMJVAPrFbL3s2R2GQX9xEgJuT4esZRxVQq6X7kOjCQbLhjmyfT5xSMllXi4Bkmmh7PUtegEjUFg6bKBdw5X70u7Z0ViMsQV8SZ47zrnLtP7NscMNlk4ge8R2GnIGSCQlAoFHslojiwLuSdTLQ0GkD97zMW+rdjwXNdEM7pT/A/ePPRtXQrILHEitNvICVSH0znV9AlPTrSRrV4FT0DVmjBIqRF61o3VBY+l5kVet2gai6a7ECbLH2pFSHtA538YhSCgtDwt8ppW+rQpXpcNyAXPK0kcRVEkVLQ7qrXksdEWzoGAgErjjJYlz9dRKYstr5oRStZfC9z0U1G84p2Kr/M+TSzuPqpK+wuMz6vwikpuSXzHY7D56BG1VzNBlTpRQQ2j38YiqYk5ClGlQiVBVDnBNieSl/orXrUFB/zoOf/Ho/cclkxOhuqceZqBXRSMJuH4ix9JgCwuIrtITc4uzb9s4h8bgSsANiPwo/rxbwN2U3ARu+/29h7qhJuB0afNwN0tzYCjcfND8C/r+4N3H9eOkyq3q47tlcbH/pfx/ZANL51+lv2Y369A1fh9wUEw9QbMxuyQISwNUQ37zPAu2Vu5ZPvwf5rrg7FffTfk/f/m/X/5C9pv+l0BCQAA</values>
+        <values>H4sIAAAAAAAA/+VWUU/bMBD+K1GeitRFSVsKdE8THdImBhJsvFBmufGl9ebYme0AXdX/vnPslKplDCRe0PrS+M53/r7L9yW5XsacxaN4ACzNjrJh3s/6/V6a9g4H2XTYn2Y91qcAWdyNJS0Bd2rIlWa4vqWidoHl8lgDtcAipaNvFXOXJEvyWmuQdrXCrYybStDFVajASD7ngmE+Hl3fdOOKamxuQcej5VbquegEnYLArRctvG24dlG5NVN5XSIuwtvgaagch0z0aYwZLHJwsrQbw70FyQCBFFQY6MYllchS6UU8srrGAPJn51Is1jvmXFpPtKT3hv/Gkwep21cAMsvDENZLEgbkw8WYWnqJnXNb6/W8FM/B+JkwKGgt7PFmzG84ryxX0pdYOhVttRJ1Kc/8ROJ1g437URsEAZXj6ZB7WsXlXN1dtCBPuGxGEigKlVOxXlFrNZ/W1sFZxiCgmXFJq4rLGam0uuVNMUIpk5nARVIIdYdnGj6TCc0d7gSnSpMTjI+b8BXV3JH4gm2weNWNzcIcC2rMAxWcIflVOySeWKBAmik0IyCNElxxrnllP+BRtxCAr7pB/9P9pxSWHz0IaqPngwfuSbZ/1B8epEQDlFNF3EVRS7Yr/os2/jILPANga4GvzY1/HHBwwU7sdLM2OvOJ4IH9V/PA4VvyQKDx5k3wL+mnvScfrhtKatRuNmRvLD7sJ3Wa9tnguwbHkApUPjVK+nDB3vmz4RErvLT8ZY55Bq/WMSccBDOPEG3tAiXitkA88S3LhGR0FZLrV8er+SYbps3vDbnnP3iDeIo+5jBvKdiFnipAleloqybyso8KRhom5IAQodRPUlfEf8kk4Q+n4AZkkhnYz6rWkoqP0upFJ9t7P5F/absVTnDiZWcvQeVw23F7egeTifQXeztdEjPnhe00CdSV3Gn3Q3G50wZnaugtsLVUVqvVzR9CuaVDdwoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Refund LifeCycle">2e539a54c3175210c07d190ed401318e</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 23:12:23</sys_created_on>
+        <sys_id>4b574358c31b5210c07d190ed40131f1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-20 23:25:45</sys_updated_on>
+        <ui_id>0393ea20-f66a-4429-aed5-9ffd3a93fa3e</ui_id>
+        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyl+zcigQGCnQboEl76XYJSqRi7tKkSlJJE8P/vUORsg1bsS2sAiTYmzkckm9m3htS/r4KGQkvQzKLZvlsNp4mUTQcRtFkMsxwnKbDSZZGKR6FvVDgJQVPg1NOYfiAeWnH+knjolASxsj9oAqmCdMFx0/fvNcH7wIz2YJxoqgIL7//6IUFVrCvgTWXq72pc4FxnFIOrnce2R5Q81Rshqiac7ZPu8uCz25CKmKhRL2Q/jJUEAoYcsw17YVLLAg2Uj1tLIpiciP41rBgwsCOoXX+pdkznDuNrF9OIaqMurnNEPkkOXN+jQ2+NarMTKm8a7aQLKPa5YPQHJfcXO3anMNNYZgUbokL262WvFyKzy4d4WaDuiZgKTWAoIUN1CL3YeS3C/n4pUY5Z6LKiZ/kMoMy1iNsjGJpaSyeVUg5XcJGaAlEYOIe2ZqzajFgWfbvOQz6OZePcKhm96KPMwu8D3nF/TnYryvzN6yYjeJP2KYiU844MAS5EmpZqiqVDyjjpa4mFBba7RWue5aSVxxrvY0cUo5+lha3y4OPGLmk2SWZYoX5AFs8UB/culdrY3yUgrMt5TIpCLModLNA/iphB7JaXQFzDCWBVMHXgtifKO5npYJ8m/X6b23A5HwV/YdmMH+oqK62bSnH07mo5Xi1m4ymBHlhHtg+NW3ghRl3JsxRFL0nacLhb0+Z7bXmUnBCcDE5SjKy5ZOWyiCXyx3FHYqlNc/PgFDz/MYyM0ifXkLlaZ4zyknT/TO3E3v3z+D/ef+8SZIDIIJc9ZjgTFSPCQD6WuwfH6VeGu/xrKLXzm1jbVhnhxrAgZHBc2slnAGnVsItnB3cOTwNEOt+X1Fmv9fXRi+AYWcCGA66EcBqE+YmkQ05r9+Ptpq1/7P1x/v+QMGdBfG6SWCtzozbnjlYHwp42ErBu2RzM9cvcK7jh+YLiuy9ZgtYwFJ/HnL6RY+M3FOzPb32ItI8Yv5v07xnHKoLVYX3Co/W+Oh3U7rzaGU5WkLlWAFva0UzIIdGWFGUy1IQ5F/VWyLZSuZMaeOdDxvNFwr6EYEEYQZmQYPKO9h4t7yIT8dRp/JjHtSB+NN0AIEEVSDBJpB2YbdpWqMOH6ddN605ZryqBnwwFTvlpEpJ9ULjOlHII4w4s6udCSruFNR/b3tNEmhsfyewvouv7+5bU0ZxOhrgSTKM4yiKI5JE0ySJp5M0n+BklG81ipAWGXRT2DkHqsD2qKZGXefosP+4ltq20ZyBqqbgtRT2M3qQmMDCgvoGNazTwH1DSaXkFIu9jnIH98Qfc4/f83X85rrKu/gvqmR3+5l2psZcv9a7oWRfBftZ0o+WYlMaDaYxyS6mSZxcjHIyuZgRPL7As3ScDAnNRnmXT4EfvwFnUQ3n3RUAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Refund LifeCycle">2e539a54c3175210c07d190ed401318e</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>f1de4b87-15f8-4a69-9dbb-dca41183806c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 23:04:43</sys_created_on>
+        <sys_id>62958f94c31b5210c07d190ed4013194</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-20 23:25:45</sys_updated_on>
+        <ui_id>c9dbdee5-b0b9-494c-a73c-446c31ed853e</ui_id>
+        <values>H4sIAAAAAAAA/9WW207jMBCGX6XK1a7UVHEOTcodAiEhsSAByw1CkWOPwZJzwHGAbtV333GSHinHXVbau3rs8cz8M1/c65kjubPnhDzhfCKIJwghHvEi4pMEEshYPI7BT5yhU9Ac8KQGVmqO6weqGmuYzQ40UAN8UOrBz4rbnykZsUZrKMx8jke5rCtFp1e9B1rYnVQc952965uhU1GNlxvQzt5sa+u92SmagcKj54v0ttM108quecmaHPNK5cJ40nse9juD40PcQSebDhk68GSg4IB5CKpqGDo5LbDIUk+XFqyfnxVqZbiThekKzelTLX9h5MC35wRgZawXYblMe4E6szikhl4Y3TDT6KVepWRQd5pwELRR5mDd1h04q4wsi87F0EwtvEvV5MVpp4izvGCtH02NSUBlC7WZY3CsQlzclY/niySPZNFK0peoSkbVckWN0TJrjE1n5jTycpfanXm33qCgPZjTqpLFbVrp8kG28TD7fHSrcDESqnzENGt5W4wos6WOsBN0dIT2w9Z8RbW0df/Aa9DZxvxZyPsGju0cceLFwcRjbuxHgRt6jLpZwjOXZr6IwnCcjDPizIdOPa0PFK3rlWLYqvS+sQV3+vVKpa3YrdJpO3DWmWlZmX1M7wF6febDHrOEvDbIgb+a27U7V6g9pSSaBOPYSzVAnpWp/SGagj9n7Hxh/xhp70hwQdplO1+7E+5he2Y7WfcdnHYbPWr+B1HrZnQHaYn3H5HWl/XnqG1ovUnahtr/BDSWZZnIYOKSjDE3jCFxE5/GLkQeC4QfeF4sPgHaW3iFr0/v2itWlEYKyWjbxBVgoUfCRJCQBSSLfOIxL+Zk4gHHjYBE45c4G+xXVkd8A789UmkGAp9CVLNSYAN8//iD93YhCwxPNyvZXV/P44qKTRzP1+w9jcHrNHbwfebdw5bDg+0o5FSqtJuuFxDdqu0v4/pSJhsMUyGA2X80QoLiOIZp6/Mlj6i4AKrZ3ZGNZHvYAbvJ+0ZjkXqM8Yz39XZ+He6Xz2eqBpP2sqT2ghQ5yKmdiLbC7a9EOCEQB37iTsY+fiUgiNyMB4FL8KsBQEH4/Gue45vf6q1DVPcKAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Refund LifeCycle">2e539a54c3175210c07d190ed401318e</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 23:04:43</sys_created_on>
+        <sys_id>62958f94c31b5210c07d190ed4013197</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-20 23:25:45</sys_updated_on>
+        <ui_id>60596941-3e1f-47e8-9b04-6f6999d6437e</ui_id>
+        <values>H4sIAAAAAAAA/9WW207jMBCGX6XKdVPFSdqk3K2okJBYkMrhZoUixx5TS84Bxyl0K959x0l6Liywy0p7V49P//wzX9wfS0dy58QJecz5WBBPEEI84g2JT2KIIWXRKAI/dvpOTjPAlRpYoTmO51TVNrBcnmqgBniv0L3bktufCRmwWmvIzcsLLuWyKhVd3HU7MMJmUnGcd05+3Pedkmo83IB2TpZ7U+9Vp2gKCpdOV/L25ZpFace8YHWGuhK5Cl50OyfdTO98gjO4ycohfQeeDeQcUIegqoK+k9Eckyz0Yh3B/PlVrjaBmcxNm2hGnyv5E28OfLtOAGbGOhPWw6QzqA2LCTX02uiamVqv/Sokg6r1hIOgtTKn27F2wVVpZJG3WwxN1Wp3oeosv2wdcdYHbNWjrlAElDZRqxwvxyzE9ax4mq5Ensm8saRLURWMqvWIGqNlWhsrZ+nU8uaY2234uN+goFmY0bKU+UNS6mIum/tQfTZ4UDgYCFU8ocxKPuQDymyqA6wEHZxhfNKE76iWNu/veAxutnfe5vKxhnPbR5x4UTD2mBv5w8ANPUbdNOapS1NfDMNwFI9S4rz0nWpRnSpaVRvHsFTJY20Tbv3rnEoasxunk6bh7GamZWm+obw5dP689DvMYvJWIwf+pm+3ztyg9pyQ4TgYRV6iAbK0SOwPUef8kLHpKv4x0t4hcEXaTdNfxwV3sB3ELrb39i7biQ41/4OotT16hLTY+49I69L6c9R2vN4lbcftfwIaS9NUpDB2ScqYG0YQu7FPIxeGHguEH3heJD4B2u/wCt/u3q1XLC+MFJLRpogbwHwaDr1oHLKApEOfeMyLOBl7wEOPBITBa5z1pmB9hI8D9w7JK+AudzUfz6Qjb9P/u+BNt+Idd8Hb3LWYfeaFw+LC3NYOMipV0vbRKzDu5faXwXxNyQ6tVAhg9r+LkKA4NlzS7PmS51JcA9VsdmZvsjVs0dwle6ewyDfecUD2djm/Duybw56qwCSdLYk9IBGFzqjtiCbD/e9BOCYQBX7sjkc+fg8gGLopDwKX4PcBgILw+dc8vPe/AA0o1cfhCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Refund LifeCycle">2e539a54c3175210c07d190ed401318e</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>5b6adbca-02f6-48ea-ba12-c8ebe9db33e5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 23:08:24</sys_created_on>
+        <sys_id>a076cfd4c31b5210c07d190ed4013180</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-20 23:25:45</sys_updated_on>
+        <ui_id>3d4e1c01-e139-4d4a-9e9e-1431a79bac74</ui_id>
+        <values>H4sIAAAAAAAA/9WWWWvjMBDHv0rwcxws24mdvi0phUK3hV4vpRgdo1YgH5XlHhv63XdkO2fTc7cL+xaNrv/8Z35WruaeEt6eF4tUiKkkgSSEBCQYk5CkkALjySSBMPWGXkFzwJUGeGkEju+pblxgPp8ZoBbEoDSDi0q4nxkZ8cYYKOzzMy4Vqq40fbrsd2CE3yotcN7bu7oeehU1eLgF4+3Nt6Y+qk5TBhqXni7kbcu1T5Ubi5I3OerK1CJ41O/c72cGh/s4g5ucHDL04NFCIQB1SKprGHo5LTDJ0jwtI5i/OCn0KnCrCtslmtPHWv3Cm6PQrZOAmfHehOUw6w3qwnKfWnpmTcNtY5Z+lYpD3XkiQNJG29l6rFtwUllVFt0WS5le7C51kxfHnSPe8oC1ejQ1ioDKJeqU4+WYhTy7LR9OFyIPVNFa0qeoS071ckStNYo11smZe4063+V2F97tN2hoF+a0qlRxk1WmvFftfag+H91oHIykLh9QZq1uihHlLtURVoKODjC+34YvqVEu7594DG52d14U6q6BQ9dHggRJNA24n4TjyI8DTn2WCuZTFspxHE/SCSPe89Crn+qZpnW9cgxLld01LuHOv96prDW7dTprG85t5kZV9gfKu4fen+dhj1lK3mrkKFz17dqZK9QeMzKeRpMkyAxAzsrM/ZBNIV4ydrqIf460DwhckHbe9tduwT1sL2JH63sHx91Ej1r4SdS6Ht1BWhr8R6T1af05ahteb5K24fY/AY0zxiSDqU8Y536cQOqnIU18GAc8kmEUBIn8Amjv4RW/3b1rr1hRWiUVp20RV4CJRI4DNo15RNg4JAEPEkGmAYg4IBEh/DXOBjNd1vgCzsq80ojX51+495UvuDvelL47oR7AFQab/J2uxXv8orfx62j7ykOHNYZ7V0LIqdJZ106vMLmV21/m8zUlG9BSKYG7vzBSgRbYd1m751teTXkG1PDbA3eTq2FH6CbgG4VFzPGOF4Cvl/P7+D5/2VM12Ky3JXMHZLI0OXUd0Wa4/VmIpwSSKEz96STEzwJEY5+JKPIJfiYAKMhQfM/7e/0bgb46DOgKAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
@@ -466,12 +553,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:41:01</sys_created_on>
         <sys_id>bef69a98c3175210c07d190ed4013134</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:24:13</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:45</sys_updated_on>
         <ui_id>236c6542-272c-4373-b3be-66ff6b07a096</ui_id>
-        <values>H4sIAAAAAAAA/+1XW2/aMBT+K8jPiDmklMtbVdRp0y5Su+2lVJGxneLJOJntdGUR/30nthMyWBlsvHTbGz43f+fwfXZ8WyLB0AQNR2mfj8d9PI8wjjEeDSgexXweD8+HMaEYdZEiSw6RmtNMM1g/EFlUhrK81JxYzjqZ7nzMWfUziXq00Joru15DKBMml2T1KWSAhS6EZOBHk9u7LsqJhuKWazQpt1yHopNkziWEXtfwtuHaVV6tWUaLJeBKRG18EzKnwdN5NQUPJFVwcBfxR8sV44AjJdLwLloSBU1meoUmVhdggPbZeyVXTcRCKOv7XJJHI77BxnG/iks5NEbDDJplEubjzemUWHIDlaktdDOuTFBu/EgYT0kh7WXb5gPe51ZkyqdYMpd1diaLpXrnB4KaAq2/ozAAgudVnxVy31Z6s8i+Xtcgr4RyEwktyowS2ayItVrMC1vBKRGX3I14SfJcqPsk19mDcMkAZdm7l7DopTL7Cnsaca96hFa4ezBV0rsC+9SZPxEtqibeQhlIXneRWZlLSYzZtAIzTL4UFRLfWGghcVPwI6jyqBa5vYBdHnjAvO4G5s/pXm7RDZV8uQ3xH5NoMI7PhzjRnC/nWVL9SAvFdhl/XduP4/0B2GrefwjgtrAG1rtl4nw/kt6ldd55R+B8tJ/zwbIhvWfLTzg/ws+I86GtZ0/6X/EdR/s4xUYbDgEC6IHIJBVctk/82rHL85bnOKYfgKpm+kXYo3MVYD0FN3DfLX/GfZe/xf3+kdx/+sAfYfyc6P8vHfl0L9l4vOHU56zQao8CkoUwjhlPKqEVcZwiDgBZK+K1R7ktiG3wv6OH+L8e/n49nA32Uq31WdGwmmaKiQqxaanCn8zcXPPPnFpzoVYvb8vSWGIF7Q3wOYkiNqIxS6N+hCkesmiMOTvDURxF8/X6bldFJ6h4nOoOGEXz0igkN78aTdBc49Qhqa275kKrKwbtnZ3q7fHMpPevfInRvVxLxxtusQIGBO/q9qt7hjzsGZrMkMoUn6HuDFVRSUUuZ4YIANc4nK0s12tvKTQJBaLWcpPNyMq4SEMXnAE3nfUHS+LEEOyneOkfMJNaf9OCd6Z+KLtjCrprcPq5iJ077yYEuEovPoj23Tc42d139l9+fyo/gCmS5nkBFxucfifU5N13NaxUPQkTAAA=</values>
+        <values>H4sIAAAAAAAA/+1XW2/aMBT+K8jPiAUo5fJWFVXatLUSbfdSqshxHHBlnMx22maI/74T27kUWgobL6x9w+fm7xy+z47vloiFaIT6g6hDh8OOF7Q9r+t5gx7xBl0adPun/S4mHmoigRcUIiUlsQxh/Yh5mhuWy3NJsaZhI5aN2yTMf/rtFkmlpEKvVhAaMpVwnP10GWAhc8ZD8KPR3X0TJVhCcU0lGi3XXLui4zigHEInBbx1uDpL8nUYk3QBuHxWGL+7zLHzNL6OwQNJORyvieizpiKkgCPCXNEmWmABTcYyQyMtUzBA++GV4FkZMWdC2z4X+Fmx37Bxt5PHRRQaI24G5dJ387HmaIw1vobKRKeyHFfMCFV2JCGNcMr1ed1mA64SzWJhUzQOeJEd83QhLu1AUFmg9nekCkDQJO8zR27biq7n8dOkAHnBhJmIa5HHBPNyhbWWLEh1DmeJKKdmxAucJEzM/ETGj8wkA5RFa8Zh0Yp4/AR7KjYTLUxy3C2YKm5dgH1szD+xZHkTP6AMJK+aSGXqnGOlqlZghv6vNEdiG3Mt+GYKdgR5HpEs0WewyyN1mFdNx/yAbOUWqahky1XEf/bbvWH3tO/5ktJFEPv5jygV4SbjJ4V9P97vgK3g/Y0Dt4bVsd4sfeN7SXqT1ri0Dsf59nbOO0tFesuWVzg/8I6I866toyf9e3z32ts4FQ4qDgEC6AFzP2KU10/8wrHJ85pnP6bvgKpg+pnbo3HhYL0F13HfLF/jvslf435nT+6/feAPPO+Y6P+RjnyylWy0W3HqIU6l2KIAf86UYcabSqhF7KeIHUAWivhmUa4LYh383+ih+6mH/18PJ72tVKt9VpSsJrEIWY5Y1VRhT2aqJvSBEq3ORHZ7t/110IoBLRiCrAWswjMqV6v7TTEdrvB+GtxhMOW7I+VUvTcop8DSKV1SXYXl9VZUdEo8OdRL5MiE+FG+y8hWrkXDilthCgMCutff4FNkYU/RaIpELOgUNacoj/JzchkzRAC40mFsy+VqZS2pxK5Au7asskOcKROpyJyGwE1jfWHxjRic/RDv/h1mUuhvnNLG2A5lc0xOdyVOOxe2cQNeuwBT6csNq9+EvYPdhCef8vtX+QFM5pePDbjm4PQ7oCbv/wC66G3uFxMAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
@@ -488,15 +575,41 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:47</sys_created_on>
         <sys_id>e18b2654c3975210c07d190ed401315c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:24:13</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:45</sys_updated_on>
         <ui_id>23503728-1374-4e50-bd7a-df31dbb88b3b</ui_id>
-        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5YfWRWSFjronhAd2iQGEt14oShy4pvWkxNntlPaVf3vu3aSNmoRAokXtL40vl8+59rn+mFNBacjegI8jM6jYTqIBoN+GPbPTqJkOEiiPh8wgIj2aMFywEgNqdIc1wsmK2dYry81MAucKE1+ldx9xlGQVlpDYTcbDOXClJKt7psMtKRzITn66ejhsUdLprG4BU1H6z3Xa9FJloDE0LsW3j5cuyrdmqu0yhFXLFrjdZM5bjzk+xg9mOTgRGGPwtJCwQGBZEwa6NGcFchS6RUdWV2hAfnz20KuthFzUdiaaM6WRvzFnU9CF5cBMkubJmyXcdOg2pyNmWUTrJzaSm/7pUQKpu4Jh4xV0l52bXXAbWmFKuoUyxLZZitZ5cVN3RG6LdA5j8ogCCgdT4e8ppVN5urprgV5JQrfkoaiVCmT2xWzVouksg7OmoIE3+OclaUoZnGp1UL4ZISSBzOJiyCT6gn3NGJWBCx1uAPsKguu0D725numhSPxA8tg8qZHzcpcSmbMjgr2MP5TOSQ1sYZC7LvgWxD7m+CSUy1Ke4FbLWALvDY60M1Nwa8XA+nx0bQ4OrpIsfWGOLDHFx49cehJZZAwsXMgGY+9RSW/IbUBmfgCJK+MJRrwaAvCiBdRQFzFW3fjSFHlCf4JQ1SWGbAkWZFPEREF+ao1Cuwb3j3ptphA3TMPZsGEdFyJ8hfAkOZCkapEYKVGqC5nSoMpJSxDpbXwXDosWV5KGCEaTcxcaYv9T8m0CsMBbwMDPODZDHQr7MAHugP0vHDXL65Ww2xbxRmP6Waz6TWTJjl9Scvp+U66ndPbTZtlHJ2eD4afw1gD5ImK3UdWFfxwzNy19rcNm1cAbIfNTy+x5wE38+bAdt3NJTe1o5k2p+82bc4+0rRpaHz4cXM4ZOoD282Yzm04mDMutqOTsP/im9e5dl4apqMRY/ENrtXbP5TFnvdt4ngFqlYcVwIkN8/AbJUBOHQQSlzD3lNH4yT3jXP7Hr+bRKJh6H8fSCj/y7O8efwHvTAy9JgKAAA=</values>
+        <values>H4sIAAAAAAAA/+VVW0/bMBT+K5YfWRWSFjronhAd2iQGEt14oShy4pPWk3OZL4Wu6n/fsXMhKggViRe0vjQ+N3/fsb/juw0VnE7oEfAwOo3G6SgajYZhODw5ipLxKImGfMQAIjqgBcsBIxWkpeK4XjFpnWGzOVfADHBSKvKr4u4zjoLUKgWF2W4xlAtdSba+bTLQki6F5Oink7v7Aa2YwuIGFJ1sdlz7opMsAYmhNy28XbhmXbk1L1ObI65YtMbLJnPaeMj3KXowycGJwgGFRwMFBwSSMalhQHNWIMtSrenEKIsG5M+vC7nuIpaiMDXRnD1q8Rd3PgpdXAbILG2a0C3jpkG1OZsyw2ZYOTVWdf0qRQq67gmHjFlpzvu2OuC6MqIs6hTDEtlml9LmxVXdEdoV6J2H1QgCKsfTIa9pZbNl+XDTgrwQhW9JQ1GWKZPdihmjRGKNg7OhIMH3OGdVJYpFXKlyJXwyQsmDhcRFkMnyAffUYlEELHW4A+wqCy7QPvXmW6aEI/EDy2DydkD1Wp9LpvUTFexh/Mc6JDWxhkLsu+BbEPub4JJTJSpzhlutoANeGx3o5qbg16uB9PBgXhwcnKXYek0c2MMzj5449MRqJEzMEkjGY28pk9+QmoDMfAGSW22IAjzagjDiRRQQV/Ha3ThS2DzBP6FJmWUaDEnW5FNEREG+KoUC+4Z3T7otZlD3zINZMSEdV1L6C6BJc6GIrRBYpRCqy5nTYE4Jy1BpLTyXDo8sryRMEI0ielkqg/1PydyG4Yi3gQEe8GIBqhV24APdAXpeuOsXV6th1lVxxkO63W4HzaRJjl/Tcnr6JN3e6T1Nm8c4Oj4djT+HsQLIkzJ2H5kt+PMxc9Pa3zZs9gDYDpufXmIvA27mzTPbZT+XXNWOZtocv9u0OflI06ah8eHHzR5DpncdXh40PaWEw1dfvd7F8+LQPZVog69wrd/hc2HseN8mjz1QtfK4ECC5fgFmqw3AsYNQ4hr2jj4aJ7ltnN2L/G4iicah/30gqfwvD/P2/h9tls6YmgoAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=2e539a54c3175210c07d190ed401318e"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=2e539a54c3175210c07d190ed401318e^sys_idNOT IN6d8b2654c3975210c07d190ed401315f,bef69a98c3175210c07d190ed4013137,f2f69a98c3175210c07d190ed4013136"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=2e539a54c3175210c07d190ed401318e^sys_idNOT IN26958f94c31b5210c07d190ed4013198,6d8b2654c3975210c07d190ed401315f,bef69a98c3175210c07d190ed4013137,e477c358c31b5210c07d190ed40131f3,f2f69a98c3175210c07d190ed4013136"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2a958f94c31b5210c07d190ed4013197</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Refund LifeCycle">2e539a54c3175210c07d190ed401318e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 23:04:43</sys_created_on>
+        <sys_id>26958f94c31b5210c07d190ed4013198</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 23:25:30</sys_updated_on>
+        <ui_id>88bf3089-3c8d-42c5-90fd-7a3ccff490d6</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">e18b2654c3975210c07d190ed401315f</block>
@@ -508,17 +621,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>7</order>
+        <order>11</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:47</sys_created_on>
         <sys_id>6d8b2654c3975210c07d190ed401315f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:57</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:31</sys_updated_on>
         <ui_id>5b6adbca-02f6-48ea-ba12-c8ebe9db33e5</ui_id>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8FUNnQdAjNhrfAhcBArQN0KS5tIGwIlc2UYpkScqOa/jfu9TDMRKnSYsee9POvmaWA+0i3XrTenerL5wTSxXNv97HkVABo+9dpKDBaB4xrbjwQquyA+JoDbINiat6spDaIZ8sdGMk+pDkwhkJ27vf1bCVkNzisNGApbkebTTfPUn5rcFSQoWSRt14K9SS2gWnqE6hzs5Zxop8VuRpmr87y6pZUWU5LwChoLqxcTEKmHzokPhFZWEf4W7cpC0PtLI0jvDBo+JIq2uQDuOoAcXBa7s9IBaBXyv5CKyE8jQuCsUPTvyk2fl0GgprJI0M++QhLIfj9TBbacHw2gSCPeKhkkMP07Jt1KdeRzg71tBKP56dkNbRPDSBdGAxUKpvVnrzeVx4KVQncEhKzUAeIvB0hqr16MLDoMSGBpUNGEPHKY3Va9E1E5cmWUoKklrqDS0NbkqABeIJ3QiSS8Lfd/AdWBFUfKQx1NzTrMAJVnbOo3HekoR9d5byRxsI9QIHKWV/DSpwzArjL2jPGgfW+/i5bY8cu9st6JE8uVHbyRfDw2eZJay1dA6fOE/Afv+tTdOCF8/N/Kft/8Ln5zCtp1k6Pe3zs9kpn59w+Mvmzl8xd3iON3o7TdP/5j42t3Blb9JBW7f8r719H4zcb3C9bzgy4YjIbcCuxj93SGzJAIIdQxttvwcJj9j+F5dBWx8DBgAA</values>
         <workflow_reference/>
@@ -534,19 +647,45 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>5</order>
+        <order>6</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:41:02</sys_created_on>
         <sys_id>bef69a98c3175210c07d190ed4013137</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 23:25:30</sys_updated_on>
+        <ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</ui_id>
+        <values>H4sIAAAAAAAA/+1UTY/TMBD9KyjnNHKSNmV7W4FWQgJWYld7gVU0cSatwbGD7bRbov53xvloq/0QCCFO3OLnzMx7L2/SBbp1Tevsrb60VqxVsPp8HwZCeYyeu0BBjcEq4FqVwgmt8h4Igy3I1l/QYylsI2F/d0L4RsjS4NitAUM1Dk2w6h5duX2DuYQCJRXeOCPUmspFSaeKQRVf8JinSZYmjCWv53GRpUWclCkgJPTeVPhmIvfqfY+EL7L28wi30yRtSk8rZmGADw5ViTS6AmkxDGpQJTht9kfEIJTXSp6AjVBuUFzDgxU/qHeyWPgXKySNfLTjeMxHqyaXtOB43XiCA+KgkJOFWra1+jjo8CZjBa10Zya3lvph40l7FiOl6majd5+mgVdC9QLHS6k5yOMJHNlQtA6t/zAosaZGeQ1NQ+bkjdFb0RcTlzpaSzpEldQ7GuqTEgH3xCPyCKIrwt/28B0Y4VV8oDZUPNAswAqe96mids6QhENvS/699YQGgaOUfHCDXrDciMZd0pwtjqwP4dNInqWx65I049linsySZcJn83SZzoq0wFmWVVVWsCWwiywibqQOZG4dODwcvrSMpZTKr8gdJeBJpP9W23+wF/Fze/HMRry8DMkvlsF/vt/cBcbY/2U4XwZh8yHUo7Z++B/vwr0P/jDBDrkpkQtLRG499m76i/uLPQVA8HNop803L+GEHX4Cj08Lzw8GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e877c358c31b5210c07d190ed40131f2</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Refund LifeCycle">2e539a54c3175210c07d190ed401318e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <parent_ui_id>5b6adbca-02f6-48ea-ba12-c8ebe9db33e5</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 23:12:46</sys_created_on>
+        <sys_id>e477c358c31b5210c07d190ed40131f3</sys_id>
         <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:57</sys_updated_on>
-        <ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</ui_id>
-        <values>H4sIAAAAAAAA/+1UTY/TMBD9KyjnNHKSNmV7W4FWQgJWYld7gVU0cSatwbGD7bRbov53xvloq/0QCCFO3OLnzMx7L2/SBbp1Tevsrb60VqxVsPp8HwZCeYyeu0BBjcEq4FqVwgmt8h4Igy3I1l/QYylsI2F/d0L4RsjS4NitAUM1Dk2w6h5duX2DuYQCJRXeOCPUmspFSaeKQRVf8JinSZYmjCWv53GRpUWclCkgJPTeVPhmIvfqfY+EL7L28wi30yRtSk8rZmGADw5ViTS6AmkxDGpQJTht9kfEIJTXSp6AjVBuUFzDgxU/qHeyWPgXKySNfLTjeMxHqyaXtOB43XiCA+KgkJOFWra1+jjo8CZjBa10Zya3lvph40l7FiOl6majd5+mgVdC9QLHS6k5yOMJHNlQtA6t/zAosaZGeQ1NQ+bkjdFb0RcTlzpaSzpEldQ7GuqTEgH3xCPyCKIrwt/28B0Y4VV8oDZUPNAswAqe96mids6QhENvS/699YQGgaOUfHCDXrDciMZd0pwtjqwP4dNInqWx65I049linsySZcJn83SZzoq0wFmWVVVWsCWwiywibqQOZG4dODwcvrSMpZTKr8gdJeBJpP9W23+wF/Fze/HMRry8DMkvlsF/vt/cBcbY/2U4XwZh8yHUo7Z++B/vwr0P/jDBDrkpkQtLRG499m76i/uLPQVA8HNop803L+GEHX4Cj08Lzw8GAAA=</values>
+        <sys_updated_on>2025-01-20 23:25:31</sys_updated_on>
+        <ui_id>90c75d9f-1ca5-4e32-897b-740139de230b</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -567,12 +706,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:41:02</sys_created_on>
         <sys_id>f2f69a98c3175210c07d190ed4013136</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:57</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:30</sys_updated_on>
         <ui_id>f1de4b87-15f8-4a69-9dbb-dca41183806c</ui_id>
-        <values>H4sIAAAAAAAA/+1UTW/bMAz9K4XPjiHbsbPkVmwoUGBbgbXoZSsMWpITYbLkSXLSzMh/H+WPNOgSbBh63M16FMn3qEd3gW5d0zr7oK+tFWsVrL4+hYFQHsPvLlBQ82AVUK2YcEKrogfCYAuy9YHb6gqaxugtZ4gyYRsJ+8ezQboRkhk+9mjAYCXHTbDqXoXcvuGFhJJLrHHvjFBrTBcMTxWBKl7SmKZJniaEJO/mcZmnZZywFDikeG9KfD9RvvrYI+FFLb4f4nbqpA3ztGISBvzZccWQ/qoCaXkY1KAYOG32R8RwYHdKvgAboRyWC/zlZyt+Yu0ky/zFiqNGyofg8ViMUxtgutGC8rvGExwQB6Ucc6iWba0+Dzr8vHkFrXTTvBFpLdbjjSftWYyUqvuN3n2ZGt4I1Qscg1JTkMcTOBxD2Tpu/cNwyWssVNT4jjicwj+m6JORSx2tJR6iSuodNvX+iYB64hHOCKIbxD/08CMY4VV8wjKYPNAswQpa9F7Dcs6ghEM/luJH6wkNAkcpxTANvGCpEY27xj5bPrI+hL8b9cSjXZekOc2zeTJLFgmdzdNFOivTks/yvKrykiyALPNosCrIwjpw/HD41hKSssvufquyb7EXS8iqLCbZ+b2Y5+f24sxGXF6G5A/L4J/vL3eBEPJ/GU6XQdhiMPWorW/+z7vw5I0/dLCDbxinwiKRB4/dTv92H9ijAQQ9hXbafPcSXrDDLyKiUIMlBgAA</values>
+        <values>H4sIAAAAAAAA/+1UUW/TMBD+KyjPaeQkTcr6NoEmIQGT2LQXmKKL7bQWjh1sp12p+t85x0lXsVYgtEfe4u983313vi/7SPeu652919fWipWKll8f40goj+H3PlLQ8mgZUa2YcEKragDiaAOy9wHoOqM3nCHEhO0k7B5eRuhaSGb4yN6BQQ7HTbTc/xZyu45XEmoukeDOGaFWmC4YnhoCTXpFU5pnZZ4Rkr2dp3WZ12nGcuCQ470p8d0k9s3HAYkvduHrIW6nStowLyslccSfHFcM5S8bkJbHUQuKgdNmd0QMB3ar5DOwFsohXeQvP1nxE7mzovAXG449Uh6Cx2M1jizAdK0F5bedFxgQB7Ucc6iWfas+hz78sHkDvXTTsBHpLfLxzov2KkZJzd1ab79MBW+EGhocg1JTkMcTOBxD3Ttu/cNwyVskqlp8RxxO5R9TDMmopU1WEg9JI/UWi/rNSYB64QnOCJIbxN8P8AMY4bv4hDSYHGTWYAWthi1DOmewhcMwlupH7wWFBsdWqjANvGCpEZ27xjobPqo+xC9X9GQ79/ssL2lZzLNZtsjobJ4v8lmd13xWlk1T1mQB5KpMwqqCrKwDxw+Hbz0hObu82q9F+xq+uIKiKVJSnPfFvDznizOOuGyG7A9m8M/3l14ghPw3w6kZhK3CUo+9DcX/2QuPfvFDBRv2hnEqLAq599iH6a/uAztcAEFPoa02330Lz9jhF5H1RSYfBgAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=2e539a54c3175210c07d190ed401318e"/>
@@ -664,7 +803,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>refund_lifecycle</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Refund Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1593670_reembo_0_refund","column_name":"state","choices":[{"image":"","used":false,"label":"Requested","rawLabel":"Requested","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Awaiting Manager\u0027s Approval","rawLabel":"Awaiting Manager\u0027s Approval","selected":false,"missing":false,"reference":false,"value":"8","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Awaiting Payment","rawLabel":"Awaiting Payment","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Reproved","rawLabel":"Reproved","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Closed","rawLabel":"Closed","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}}],"usedInstances":{"5b6adbca-02f6-48ea-ba12-c8ebe9db33e5":["condition"]}},{"name":"236c6542-272c-4373-b3be-66ff6b07a096.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f1de4b87-15f8-4a69-9dbb-dca41183806c":["condition"],"592b27af-3c12-4104-86cd-e27a3d0daaa4":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.506a11d8c3df1210c07d190ed401311b}}","label":"Refund Operational Users Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}},{"name":"Created or Updated_1.current.category","label":"Trigger - Record Created or Updated➛Refund Record➛Category","reference":"x_1593670_reembo_0_refund_category","reference_display":"Refund Category","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund","column_name":"category","usedInstances":{"5a4950e7-892d-4727-8dfe-03196a9582e0":["conditions"]}},{"name":"Created or Updated_1.current.category.name","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"name","usedInstances":{}},{"name":"Created or Updated_1.current.category.assignement_group","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Assignement Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"assignement_group","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["assignment_group"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Refund Record","reference":"x_1593670_reembo_0_refund","reference_display":"Refund","type":"reference","base_type":"reference","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["record"],"236c6542-272c-4373-b3be-66ff6b07a096":["record"],"34a9e282-3060-4887-84c1-e5666360c3fc":["record"],"23503728-1374-4e50-bd7a-df31dbb88b3b":["record"],"c687e319-fb23-46c3-bb91-599d5bfd6a1b":["record"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.opened_by.manager","label":"Trigger - Record Created or Updated➛Refund Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Refund Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1593670_reembo_0_refund","column_name":"state","choices":[{"image":"","used":false,"label":"Requested","rawLabel":"Requested","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Awaiting Manager\u0027s Approval","rawLabel":"Awaiting Manager\u0027s Approval","selected":false,"missing":false,"reference":false,"value":"8","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Awaiting Payment","rawLabel":"Awaiting Payment","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Reproved","rawLabel":"Reproved","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Closed","rawLabel":"Closed","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}}],"usedInstances":{"5b6adbca-02f6-48ea-ba12-c8ebe9db33e5":["condition"]}},{"name":"236c6542-272c-4373-b3be-66ff6b07a096.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f1de4b87-15f8-4a69-9dbb-dca41183806c":["condition"],"592b27af-3c12-4104-86cd-e27a3d0daaa4":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.506a11d8c3df1210c07d190ed401311b}}","label":"Refund Operational Users Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}},{"name":"Created or Updated_1.current.category","label":"Trigger - Record Created or Updated➛Refund Record➛Category","reference":"x_1593670_reembo_0_refund_category","reference_display":"Refund Category","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund","column_name":"category","usedInstances":{"5a4950e7-892d-4727-8dfe-03196a9582e0":["conditions"]}},{"name":"Created or Updated_1.current.category.name","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"name","usedInstances":{}},{"name":"Created or Updated_1.current.category.assignement_group","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Assignement Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"assignement_group","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["assignment_group"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Refund Record","reference":"x_1593670_reembo_0_refund","reference_display":"Refund","type":"reference","base_type":"reference","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["record"],"236c6542-272c-4373-b3be-66ff6b07a096":["record"],"34a9e282-3060-4887-84c1-e5666360c3fc":["record"],"23503728-1374-4e50-bd7a-df31dbb88b3b":["record"],"c687e319-fb23-46c3-bb91-599d5bfd6a1b":["record"],"c9dbdee5-b0b9-494c-a73c-446c31ed853e":["record"],"60596941-3e1f-47e8-9b04-6f6999d6437e":["record"],"3d4e1c01-e139-4d4a-9e9e-1431a79bac74":["record"],"0393ea20-f66a-4429-aed5-9ffd3a93fa3e":["conditions"]},"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Refund LifeCycle</name>
         <natlang/>
@@ -681,7 +820,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ef8496d4c3175210c07d190ed4013130</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -689,7 +828,7 @@
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:59</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:33</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -773,14 +912,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:30:25</sys_created_on>
         <sys_id>678496d4c3175210c07d190ed4013133</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:59</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -857,14 +996,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:30:26</sys_created_on>
         <sys_id>a38496d4c3175210c07d190ed4013145</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:59</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -997,16 +1136,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:30:26</sys_created_on>
         <sys_id>278496d4c3175210c07d190ed401316a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 19:30:26</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:08:33</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ef8496d4c3175210c07d190ed4013130^sys_idNOT IN038b6654c3975210c07d190ed401313b,0b8b6654c3975210c07d190ed401313a,4b8b6654c3975210c07d190ed4013139,6f8496d4c3175210c07d190ed4013169"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ef8496d4c3175210c07d190ed4013130^sys_idNOT IN038b6654c3975210c07d190ed401313b,0b8b6654c3975210c07d190ed401313a,4b8b6654c3975210c07d190ed4013139,5238c398c31b5210c07d190ed40131d9,6f8496d4c3175210c07d190ed4013169,7e760318c31b5210c07d190ed40131cc,b2760318c31b5210c07d190ed40131cc,b6760318c31b5210c07d190ed40131cd"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -1016,18 +1155,18 @@
         <display_text/>
         <flow display_value="Refund LifeCycle">ef8496d4c3175210c07d190ed4013130</flow>
         <generation_source/>
-        <order>6</order>
+        <order>8</order>
         <parent_ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:53</sys_created_on>
         <sys_id>038b6654c3975210c07d190ed401313b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:59</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:16:11</sys_updated_on>
         <ui_id>c687e319-fb23-46c3-bb91-599d5bfd6a1b</ui_id>
-        <values>H4sIAAAAAAAA/+VUXW/aMBT9K8jPEUoIsMLbBEKa1LUS3XjpqsiJb8CS8zF/UBjiv+86cUIEVUelvqDlyb4f9jkn5/r5QDgjUzIE5geTYJyEQRgOfH9wNwzicRgHAxZSgIB4JKcZYKWEpJAM91sqjA0cDjMJVAPrFbL3s2R2GQX9xEgJuT4esZRxVQq6X7kOjCQbLhjmyfT5xSMllXi4Bkmmh7PUtegEjUFg6bKBdw5X70u7Z0ViMsQV8SZ47zrnLtP7NscMNlk4ge8R2GnIGSCQlAoFHslojiwLuSdTLQ0GkD97zMW+rdjwXNdEM7pT/A/ePPRtXQrILHEitNvICVSH0znV9AlPTrSRrV4FT0DVmjBIqRF61o3VBY+l5kVet2gai6a7ECbLH2pFSHtA538YhSCgtDwt8ppW+rQpXpcNyAXPK0kcRVEkVLQ7qrXksdEWzoGAgErjjJYlz9dRKYstr5oRStZfC9z0U1G84p2Kr/M+TSzuPqpK+wuMz6vwikpuSXzHY7D56BG1VzNBlTpRQQ2j38YiqYk5ClGlQiVBVDnBNieSl/orXrUFB/zoOf/Ho/cclkxOhuqceZqBXRSMJuH4ix9JgCwuIrtITc4uzb9s4h8bgSsANiPwo/rxbwN2U3ARu+/29h7qhJuB0afNwN0tzYCjcfND8C/r+4N3H9eOkyq3q47tlcbH/pfx/ZANL51+lv2Y369A1fh9wUEw9QbMxuyQISwNUQ37zPAu2Vu5ZPvwf5rrg7FffTfk/f/m/X/5C9pv+l0BCQAA</values>
+        <values>H4sIAAAAAAAA/+VWUU/bMBD+K1GeitRFSVsKdE8THdImBhJsvFBmufGl9ebYme0AXdX/vnPslKplDCRe0PrS+M53/r7L9yW5XsacxaN4ACzNjrJh3s/6/V6a9g4H2XTYn2Y91qcAWdyNJS0Bd2rIlWa4vqWidoHl8lgDtcAipaNvFXOXJEvyWmuQdrXCrYybStDFVajASD7ngmE+Hl3fdOOKamxuQcej5VbquegEnYLArRctvG24dlG5NVN5XSIuwtvgaagch0z0aYwZLHJwsrQbw70FyQCBFFQY6MYllchS6UU8srrGAPJn51Is1jvmXFpPtKT3hv/Gkwep21cAMsvDENZLEgbkw8WYWnqJnXNb6/W8FM/B+JkwKGgt7PFmzG84ryxX0pdYOhVttRJ1Kc/8ROJ1g437URsEAZXj6ZB7WsXlXN1dtCBPuGxGEigKlVOxXlFrNZ/W1sFZxiCgmXFJq4rLGam0uuVNMUIpk5nARVIIdYdnGj6TCc0d7gSnSpMTjI+b8BXV3JH4gm2weNWNzcIcC2rMAxWcIflVOySeWKBAmik0IyCNElxxrnllP+BRtxCAr7pB/9P9pxSWHz0IaqPngwfuSbZ/1B8epEQDlFNF3EVRS7Yr/os2/jILPANga4GvzY1/HHBwwU7sdLM2OvOJ4IH9V/PA4VvyQKDx5k3wL+mnvScfrhtKatRuNmRvLD7sJ3Wa9tnguwbHkApUPjVK+nDB3vmz4RErvLT8ZY55Bq/WMSccBDOPEG3tAiXitkA88S3LhGR0FZLrV8er+SYbps3vDbnnP3iDeIo+5jBvKdiFnipAleloqybyso8KRhom5IAQodRPUlfEf8kk4Q+n4AZkkhnYz6rWkoqP0upFJ9t7P5F/absVTnDiZWcvQeVw23F7egeTifQXeztdEjPnhe00CdSV3Gn3Q3G50wZnaugtsLVUVqvVzR9CuaVDdwoAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
@@ -1044,12 +1183,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:53</sys_created_on>
         <sys_id>0b8b6654c3975210c07d190ed401313a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:59</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:32</sys_updated_on>
         <ui_id>23503728-1374-4e50-bd7a-df31dbb88b3b</ui_id>
-        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5YfWRWSFjronhAd2iQGEt14oShy4pvWkxNntlPaVf3vu3aSNmoRAokXtL40vl8+59rn+mFNBacjegI8jM6jYTqIBoN+GPbPTqJkOEiiPh8wgIj2aMFywEgNqdIc1wsmK2dYry81MAucKE1+ldx9xlGQVlpDYTcbDOXClJKt7psMtKRzITn66ejhsUdLprG4BU1H6z3Xa9FJloDE0LsW3j5cuyrdmqu0yhFXLFrjdZM5bjzk+xg9mOTgRGGPwtJCwQGBZEwa6NGcFchS6RUdWV2hAfnz20KuthFzUdiaaM6WRvzFnU9CF5cBMkubJmyXcdOg2pyNmWUTrJzaSm/7pUQKpu4Jh4xV0l52bXXAbWmFKuoUyxLZZitZ5cVN3RG6LdA5j8ogCCgdT4e8ppVN5urprgV5JQrfkoaiVCmT2xWzVouksg7OmoIE3+OclaUoZnGp1UL4ZISSBzOJiyCT6gn3NGJWBCx1uAPsKguu0D725numhSPxA8tg8qZHzcpcSmbMjgr2MP5TOSQ1sYZC7LvgWxD7m+CSUy1Ke4FbLWALvDY60M1Nwa8XA+nx0bQ4OrpIsfWGOLDHFx49cehJZZAwsXMgGY+9RSW/IbUBmfgCJK+MJRrwaAvCiBdRQFzFW3fjSFHlCf4JQ1SWGbAkWZFPEREF+ao1Cuwb3j3ptphA3TMPZsGEdFyJ8hfAkOZCkapEYKVGqC5nSoMpJSxDpbXwXDosWV5KGCEaTcxcaYv9T8m0CsMBbwMDPODZDHQr7MAHugP0vHDXL65Ww2xbxRmP6Waz6TWTJjl9Scvp+U66ndPbTZtlHJ2eD4afw1gD5ImK3UdWFfxwzNy19rcNm1cAbIfNTy+x5wE38+bAdt3NJTe1o5k2p+82bc4+0rRpaHz4cXM4ZOoD282Yzm04mDMutqOTsP/im9e5dl4apqMRY/ENrtXbP5TFnvdt4ngFqlYcVwIkN8/AbJUBOHQQSlzD3lNH4yT3jXP7Hr+bRKJh6H8fSCj/y7O8efwHvTAy9JgKAAA=</values>
+        <values>H4sIAAAAAAAA/+VVW0/bMBT+K5YfWRWSFjronhAd2iQGEt14oShy4pPWk3OZL4Wu6n/fsXMhKggViRe0vjQ+N3/fsb/juw0VnE7oEfAwOo3G6SgajYZhODw5ipLxKImGfMQAIjqgBcsBIxWkpeK4XjFpnWGzOVfADHBSKvKr4u4zjoLUKgWF2W4xlAtdSba+bTLQki6F5Oink7v7Aa2YwuIGFJ1sdlz7opMsAYmhNy28XbhmXbk1L1ObI65YtMbLJnPaeMj3KXowycGJwgGFRwMFBwSSMalhQHNWIMtSrenEKIsG5M+vC7nuIpaiMDXRnD1q8Rd3PgpdXAbILG2a0C3jpkG1OZsyw2ZYOTVWdf0qRQq67gmHjFlpzvu2OuC6MqIs6hTDEtlml9LmxVXdEdoV6J2H1QgCKsfTIa9pZbNl+XDTgrwQhW9JQ1GWKZPdihmjRGKNg7OhIMH3OGdVJYpFXKlyJXwyQsmDhcRFkMnyAffUYlEELHW4A+wqCy7QPvXmW6aEI/EDy2DydkD1Wp9LpvUTFexh/Mc6JDWxhkLsu+BbEPub4JJTJSpzhlutoANeGx3o5qbg16uB9PBgXhwcnKXYek0c2MMzj5449MRqJEzMEkjGY28pk9+QmoDMfAGSW22IAjzagjDiRRQQV/Ha3ThS2DzBP6FJmWUaDEnW5FNEREG+KoUC+4Z3T7otZlD3zINZMSEdV1L6C6BJc6GIrRBYpRCqy5nTYE4Jy1BpLTyXDo8sryRMEI0ielkqg/1PydyG4Yi3gQEe8GIBqhV24APdAXpeuOsXV6th1lVxxkO63W4HzaRJjl/Tcnr6JN3e6T1Nm8c4Oj4djT+HsQLIkzJ2H5kt+PMxc9Pa3zZs9gDYDpufXmIvA27mzTPbZT+XXNWOZtocv9u0OflI06ah8eHHzR5DpncdXh40PaWEw1dfvd7F8+LQPZVog69wrd/hc2HseN8mjz1QtfK4ECC5fgFmqw3AsYNQ4hr2jj4aJ7ltnN2L/G4iicah/30gqfwvD/P2/h9tls6YmgoAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
@@ -1066,12 +1205,34 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:53</sys_created_on>
         <sys_id>4b8b6654c3975210c07d190ed4013139</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:59</sys_updated_on>
+        <sys_updated_on>2025-01-20 22:43:51</sys_updated_on>
         <ui_id>236c6542-272c-4373-b3be-66ff6b07a096</ui_id>
-        <values>H4sIAAAAAAAA/+1XW2/aMBT+K8jPiDmklMtbVdRp0y5Su+2lVJGxneLJOJntdGUR/30nthMyWBlsvHTbGz43f+fwfXZ8WyLB0AQNR2mfj8d9PI8wjjEeDSgexXweD8+HMaEYdZEiSw6RmtNMM1g/EFlUhrK81JxYzjqZ7nzMWfUziXq00Joru15DKBMml2T1KWSAhS6EZOBHk9u7LsqJhuKWazQpt1yHopNkziWEXtfwtuHaVV6tWUaLJeBKRG18EzKnwdN5NQUPJFVwcBfxR8sV44AjJdLwLloSBU1meoUmVhdggPbZeyVXTcRCKOv7XJJHI77BxnG/iks5NEbDDJplEubjzemUWHIDlaktdDOuTFBu/EgYT0kh7WXb5gPe51ZkyqdYMpd1diaLpXrnB4KaAq2/ozAAgudVnxVy31Z6s8i+Xtcgr4RyEwktyowS2ayItVrMC1vBKRGX3I14SfJcqPsk19mDcMkAZdm7l7DopTL7Cnsaca96hFa4ezBV0rsC+9SZPxEtqibeQhlIXneRWZlLSYzZtAIzTL4UFRLfWGghcVPwI6jyqBa5vYBdHnjAvO4G5s/pXm7RDZV8uQ3xH5NoMI7PhzjRnC/nWVL9SAvFdhl/XduP4/0B2GrefwjgtrAG1rtl4nw/kt6ldd55R+B8tJ/zwbIhvWfLTzg/ws+I86GtZ0/6X/EdR/s4xUYbDgEC6IHIJBVctk/82rHL85bnOKYfgKpm+kXYo3MVYD0FN3DfLX/GfZe/xf3+kdx/+sAfYfyc6P8vHfl0L9l4vOHU56zQao8CkoUwjhlPKqEVcZwiDgBZK+K1R7ktiG3wv6OH+L8e/n49nA32Uq31WdGwmmaKiQqxaanCn8zcXPPPnFpzoVYvb8vSWGIF7Q3wOYkiNqIxS6N+hCkesmiMOTvDURxF8/X6bldFJ6h4nOoOGEXz0igkN78aTdBc49Qhqa275kKrKwbtnZ3q7fHMpPevfInRvVxLxxtusQIGBO/q9qt7hjzsGZrMkMoUn6HuDFVRSUUuZ4YIANc4nK0s12tvKTQJBaLWcpPNyMq4SEMXnAE3nfUHS+LEEOyneOkfMJNaf9OCd6Z+KLtjCrprcPq5iJ077yYEuEovPoj23Tc42d139l9+fyo/gCmS5nkBFxucfifU5N13NaxUPQkTAAA=</values>
+        <values>H4sIAAAAAAAA/+1XW2/aMBT+K8jPiAUo5fJWFVXatLUSbfdSqshxHHBlnMx22maI/74T27kUWgobL6x9w+fm7xy+z47vloiFaIT6g6hDh8OOF7Q9r+t5gx7xBl0adPun/S4mHmoigRcUIiUlsQxh/Yh5mhuWy3NJsaZhI5aN2yTMf/rtFkmlpEKvVhAaMpVwnP10GWAhc8ZD8KPR3X0TJVhCcU0lGi3XXLui4zigHEInBbx1uDpL8nUYk3QBuHxWGL+7zLHzNL6OwQNJORyvieizpiKkgCPCXNEmWmABTcYyQyMtUzBA++GV4FkZMWdC2z4X+Fmx37Bxt5PHRRQaI24G5dJ387HmaIw1vobKRKeyHFfMCFV2JCGNcMr1ed1mA64SzWJhUzQOeJEd83QhLu1AUFmg9nekCkDQJO8zR27biq7n8dOkAHnBhJmIa5HHBPNyhbWWLEh1DmeJKKdmxAucJEzM/ETGj8wkA5RFa8Zh0Yp4/AR7KjYTLUxy3C2YKm5dgH1szD+xZHkTP6AMJK+aSGXqnGOlqlZghv6vNEdiG3Mt+GYKdgR5HpEs0WewyyN1mFdNx/yAbOUWqahky1XEf/bbvWH3tO/5ktJFEPv5jygV4SbjJ4V9P97vgK3g/Y0Dt4bVsd4sfeN7SXqT1ri0Dsf59nbOO0tFesuWVzg/8I6I866toyf9e3z32ts4FQ4qDgEC6AFzP2KU10/8wrHJ85pnP6bvgKpg+pnbo3HhYL0F13HfLF/jvslf435nT+6/feAPPO+Y6P+RjnyylWy0W3HqIU6l2KIAf86UYcabSqhF7KeIHUAWivhmUa4LYh383+ih+6mH/18PJ72tVKt9VpSsJrEIWY5Y1VRhT2aqJvSBEq3ORHZ7t/110IoBLRiCrAWswjMqV6v7TTEdrvB+GtxhMOW7I+VUvTcop8DSKV1SXYXl9VZUdEo8OdRL5MiE+FG+y8hWrkXDilthCgMCutff4FNkYU/RaIpELOgUNacoj/JzchkzRAC40mFsy+VqZS2pxK5Au7asskOcKROpyJyGwE1jfWHxjRic/RDv/h1mUuhvnNLG2A5lc0xOdyVOOxe2cQNeuwBT6csNq9+EvYPdhCef8vtX+QFM5pePDbjm4PQ7oCbv/wC66G3uFxMAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Refund LifeCycle">ef8496d4c3175210c07d190ed4013130</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 23:16:10</sys_created_on>
+        <sys_id>5238c398c31b5210c07d190ed40131d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 23:16:10</sys_updated_on>
+        <ui_id>0393ea20-f66a-4429-aed5-9ffd3a93fa3e</ui_id>
+        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyl+zcigQGCnQboEl76XYJSqRi7tKkSlJJE8P/vUORsg1bsS2sAiTYmzkckm9m3htS/r4KGQkvQzKLZvlsNp4mUTQcRtFkMsxwnKbDSZZGKR6FvVDgJQVPg1NOYfiAeWnH+knjolASxsj9oAqmCdMFx0/fvNcH7wIz2YJxoqgIL7//6IUFVrCvgTWXq72pc4FxnFIOrnce2R5Q81Rshqiac7ZPu8uCz25CKmKhRL2Q/jJUEAoYcsw17YVLLAg2Uj1tLIpiciP41rBgwsCOoXX+pdkznDuNrF9OIaqMurnNEPkkOXN+jQ2+NarMTKm8a7aQLKPa5YPQHJfcXO3anMNNYZgUbokL262WvFyKzy4d4WaDuiZgKTWAoIUN1CL3YeS3C/n4pUY5Z6LKiZ/kMoMy1iNsjGJpaSyeVUg5XcJGaAlEYOIe2ZqzajFgWfbvOQz6OZePcKhm96KPMwu8D3nF/TnYryvzN6yYjeJP2KYiU844MAS5EmpZqiqVDyjjpa4mFBba7RWue5aSVxxrvY0cUo5+lha3y4OPGLmk2SWZYoX5AFs8UB/culdrY3yUgrMt5TIpCLModLNA/iphB7JaXQFzDCWBVMHXgtifKO5npYJ8m/X6b23A5HwV/YdmMH+oqK62bSnH07mo5Xi1m4ymBHlhHtg+NW3ghRl3JsxRFL0nacLhb0+Z7bXmUnBCcDE5SjKy5ZOWyiCXyx3FHYqlNc/PgFDz/MYyM0ifXkLlaZ4zyknT/TO3E3v3z+D/ef+8SZIDIIJc9ZjgTFSPCQD6WuwfH6VeGu/xrKLXzm1jbVhnhxrAgZHBc2slnAGnVsItnB3cOTwNEOt+X1Fmv9fXRi+AYWcCGA66EcBqE+YmkQ05r9+Ptpq1/7P1x/v+QMGdBfG6SWCtzozbnjlYHwp42ErBu2RzM9cvcK7jh+YLiuy9ZgtYwFJ/HnL6RY+M3FOzPb32ItI8Yv5v07xnHKoLVYX3Co/W+Oh3U7rzaGU5WkLlWAFva0UzIIdGWFGUy1IQ5F/VWyLZSuZMaeOdDxvNFwr6EYEEYQZmQYPKO9h4t7yIT8dRp/JjHtSB+NN0AIEEVSDBJpB2YbdpWqMOH6ddN605ZryqBnwwFTvlpEpJ9ULjOlHII4w4s6udCSruFNR/b3tNEmhsfyewvouv7+5bU0ZxOhrgSTKM4yiKI5JE0ySJp5M0n+BklG81ipAWGXRT2DkHqsD2qKZGXefosP+4ltq20ZyBqqbgtRT2M3qQmMDCgvoGNazTwH1DSaXkFIu9jnIH98Qfc4/f83X85rrKu/gvqmR3+5l2psZcv9a7oWRfBftZ0o+WYlMaDaYxyS6mSZxcjHIyuZgRPL7As3ScDAnNRnmXT4EfvwFnUQ3n3RUAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
@@ -1095,8 +1256,100 @@
         <ui_id>e2843c79-d7e9-4bfb-a92f-4cf790f449db</ui_id>
         <values>H4sIAAAAAAAA/+VWXW/aMBT9K8hPq0SjhAAlvE2gSpO6VqIbL11nmfiGWnPizHZoGcp/33U+AEHHWql7qMYL9r2+9jkn98S52xDByZj0gftBFAzjMAjDnu/3Rv1gMQwXQY+HDCAgXZKxFHClhlhpjvMVk4ULbDYTDcwC7yjd+ZpzN6SBFxdaQ2bLEpdyYXLJ1vOmAiPxg5Ac82R8d98lOdO4uQVNxpuD1EvRSbYAiUtnLbxDuHaduzlXcZEiLira4FVTOW0ynU9TzGCRgxP4XQJPFjIOCCRh0kCXpCxDlkqvydjqAgPIn99kcr1d8SAyWxNN2ZMRv/Dkvu/WJYDM4kaE7ZQ2AtXhZMosu8WdY1vorV5KxGBqTTgkrJB2sh+rF9zkVqisLrFsIdtqJYs0u64VIdsN9p5HYRAE5I6nQ17TSm4f1OOsBXkpskqShqJUMZPbGbNWi0VhHZwNAQmVxinLc5Etaa7VSlTFCCX1lhInXiLVI55pxDLzWOxwe6gq8y4xPq3Cc6aFI/EZt8HiskvM2kwkM2ZHBTWkPwuHpCbWUKCVCpUEtOoEVxxrkduPeNQKGuBlt+n/xeBUh8XRrqH29tx54IkGgygcXvhUA6QLRd0gKTJ+3PyzNv46C7wAYGuBL9WDfx5w44Kj2NV+bee6TjQeGLyZB0bvyQMNjXdvgr+1vt87+XLd66Sq281e2yMIRFixXGpV5N8K3w/56QvBi3G+xMbx6mrYlZfld2MxW28zOvbOPz/vdZ58gXKtJy8FSG6ekbI1JKRI1AKtpT0wZZPszJvk9nJ6M2cGQ7/6vSN//i93VBt0oA8N4GInS0jCaYWYBpRKpX7QIqf1N5HX/B3ZwrMKnyxq8uEMh1fqEfSEGfhwhuANWwGfb7/8BqwfDXy4OB9FPX7ev+jhiCdw7odBNGTRYNQD35v94Rz8NCzL8v43+nsjioMKAAA=</values>
     </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Refund LifeCycle">ef8496d4c3175210c07d190ed4013130</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 23:08:33</sys_created_on>
+        <sys_id>7e760318c31b5210c07d190ed40131cc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 23:16:11</sys_updated_on>
+        <ui_id>60596941-3e1f-47e8-9b04-6f6999d6437e</ui_id>
+        <values>H4sIAAAAAAAA/9WW207jMBCGX6XKdVPFSdqk3K2okJBYkMrhZoUixx5TS84Bxyl0K959x0l6Liywy0p7V49P//wzX9wfS0dy58QJecz5WBBPEEI84g2JT2KIIWXRKAI/dvpOTjPAlRpYoTmO51TVNrBcnmqgBniv0L3bktufCRmwWmvIzcsLLuWyKhVd3HU7MMJmUnGcd05+3Pedkmo83IB2TpZ7U+9Vp2gKCpdOV/L25ZpFace8YHWGuhK5Cl50OyfdTO98gjO4ycohfQeeDeQcUIegqoK+k9Eckyz0Yh3B/PlVrjaBmcxNm2hGnyv5E28OfLtOAGbGOhPWw6QzqA2LCTX02uiamVqv/Sokg6r1hIOgtTKn27F2wVVpZJG3WwxN1Wp3oeosv2wdcdYHbNWjrlAElDZRqxwvxyzE9ax4mq5Ensm8saRLURWMqvWIGqNlWhsrZ+nU8uaY2234uN+goFmY0bKU+UNS6mIum/tQfTZ4UDgYCFU8ocxKPuQDymyqA6wEHZxhfNKE76iWNu/veAxutnfe5vKxhnPbR5x4UTD2mBv5w8ANPUbdNOapS1NfDMNwFI9S4rz0nWpRnSpaVRvHsFTJY20Tbv3rnEoasxunk6bh7GamZWm+obw5dP689DvMYvJWIwf+pm+3ztyg9pyQ4TgYRV6iAbK0SOwPUef8kLHpKv4x0t4hcEXaTdNfxwV3sB3ELrb39i7biQ41/4OotT16hLTY+49I69L6c9R2vN4lbcftfwIaS9NUpDB2ScqYG0YQu7FPIxeGHguEH3heJD4B2u/wCt/u3q1XLC+MFJLRpogbwHwaDr1oHLKApEOfeMyLOBl7wEOPBITBa5z1pmB9hI8D9w7JK+AudzUfz6Qjb9P/u+BNt+Idd8Hb3LWYfeaFw+LC3NYOMipV0vbRKzDu5faXwXxNyQ6tVAhg9r+LkKA4NlzS7PmS51JcA9VsdmZvsjVs0dwle6ewyDfecUD2djm/Duybw56qwCSdLYk9IBGFzqjtiCbD/e9BOCYQBX7sjkc+fg8gGLopDwKX4PcBgILw+dc8vPe/AA0o1cfhCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Refund LifeCycle">ef8496d4c3175210c07d190ed4013130</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>f1de4b87-15f8-4a69-9dbb-dca41183806c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 23:08:33</sys_created_on>
+        <sys_id>b2760318c31b5210c07d190ed40131cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 23:08:33</sys_updated_on>
+        <ui_id>c9dbdee5-b0b9-494c-a73c-446c31ed853e</ui_id>
+        <values>H4sIAAAAAAAA/9WW207jMBCGX6XK1a7UVHEOTcodAiEhsSAByw1CkWOPwZJzwHGAbtV333GSHinHXVbau3rs8cz8M1/c65kjubPnhDzhfCKIJwghHvEi4pMEEshYPI7BT5yhU9Ac8KQGVmqO6weqGmuYzQ40UAN8UOrBz4rbnykZsUZrKMx8jke5rCtFp1e9B1rYnVQc952965uhU1GNlxvQzt5sa+u92SmagcKj54v0ttM108quecmaHPNK5cJ40nse9juD40PcQSebDhk68GSg4IB5CKpqGDo5LbDIUk+XFqyfnxVqZbiThekKzelTLX9h5MC35wRgZawXYblMe4E6szikhl4Y3TDT6KVepWRQd5pwELRR5mDd1h04q4wsi87F0EwtvEvV5MVpp4izvGCtH02NSUBlC7WZY3CsQlzclY/niySPZNFK0peoSkbVckWN0TJrjE1n5jTycpfanXm33qCgPZjTqpLFbVrp8kG28TD7fHSrcDESqnzENGt5W4wos6WOsBN0dIT2w9Z8RbW0df/Aa9DZxvxZyPsGju0cceLFwcRjbuxHgRt6jLpZwjOXZr6IwnCcjDPizIdOPa0PFK3rlWLYqvS+sQV3+vVKpa3YrdJpO3DWmWlZmX1M7wF6febDHrOEvDbIgb+a27U7V6g9pSSaBOPYSzVAnpWp/SGagj9n7Hxh/xhp70hwQdplO1+7E+5he2Y7WfcdnHYbPWr+B1HrZnQHaYn3H5HWl/XnqG1ovUnahtr/BDSWZZnIYOKSjDE3jCFxE5/GLkQeC4QfeF4sPgHaW3iFr0/v2itWlEYKyWjbxBVgoUfCRJCQBSSLfOIxL+Zk4gHHjYBE45c4G+xXVkd8A789UmkGAp9CVLNSYAN8//iD93YhCwxPNyvZXV/P44qKTRzP1+w9jcHrNHbwfebdw5bDg+0o5FSqtJuuFxDdqu0v4/pSJhsMUyGA2X80QoLiOIZp6/Mlj6i4AKrZ3ZGNZHvYAbvJ+0ZjkXqM8Yz39XZ+He6Xz2eqBpP2sqT2ghQ5yKmdiLbC7a9EOCEQB37iTsY+fiUgiNyMB4FL8KsBQEH4/Gue45vf6q1DVPcKAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Refund LifeCycle">ef8496d4c3175210c07d190ed4013130</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>5b6adbca-02f6-48ea-ba12-c8ebe9db33e5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 23:08:34</sys_created_on>
+        <sys_id>b6760318c31b5210c07d190ed40131cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 23:16:11</sys_updated_on>
+        <ui_id>3d4e1c01-e139-4d4a-9e9e-1431a79bac74</ui_id>
+        <values>H4sIAAAAAAAA/9WWWWvjMBDHv0rwcxws24mdvi0phUK3hV4vpRgdo1YgH5XlHhv63XdkO2fTc7cL+xaNrv/8Z35WruaeEt6eF4tUiKkkgSSEBCQYk5CkkALjySSBMPWGXkFzwJUGeGkEju+pblxgPp8ZoBbEoDSDi0q4nxkZ8cYYKOzzMy4Vqq40fbrsd2CE3yotcN7bu7oeehU1eLgF4+3Nt6Y+qk5TBhqXni7kbcu1T5Ubi5I3OerK1CJ41O/c72cGh/s4g5ucHDL04NFCIQB1SKprGHo5LTDJ0jwtI5i/OCn0KnCrCtslmtPHWv3Cm6PQrZOAmfHehOUw6w3qwnKfWnpmTcNtY5Z+lYpD3XkiQNJG29l6rFtwUllVFt0WS5le7C51kxfHnSPe8oC1ejQ1ioDKJeqU4+WYhTy7LR9OFyIPVNFa0qeoS071ckStNYo11smZe4063+V2F97tN2hoF+a0qlRxk1WmvFftfag+H91oHIykLh9QZq1uihHlLtURVoKODjC+34YvqVEu7594DG52d14U6q6BQ9dHggRJNA24n4TjyI8DTn2WCuZTFspxHE/SCSPe89Crn+qZpnW9cgxLld01LuHOv96prDW7dTprG85t5kZV9gfKu4fen+dhj1lK3mrkKFz17dqZK9QeMzKeRpMkyAxAzsrM/ZBNIV4ydrqIf460DwhckHbe9tduwT1sL2JH63sHx91Ej1r4SdS6Ht1BWhr8R6T1af05ahteb5K24fY/AY0zxiSDqU8Y536cQOqnIU18GAc8kmEUBIn8Amjv4RW/3b1rr1hRWiUVp20RV4CJRI4DNo15RNg4JAEPEkGmAYg4IBEh/DXOBjNd1vgCzsq80ojX51+495UvuDvelL47oR7AFQab/J2uxXv8orfx62j7ykOHNYZ7V0LIqdJZ106vMLmV21/m8zUlG9BSKYG7vzBSgRbYd1m751teTXkG1PDbA3eTq2FH6CbgG4VFzPGOF4Cvl/P7+D5/2VM12Ky3JXMHZLI0OXUd0Wa4/VmIpwSSKEz96STEzwJEY5+JKPIJfiYAKMhQfM/7e/0bgb46DOgKAAA=</values>
+    </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=ef8496d4c3175210c07d190ed4013130"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ef8496d4c3175210c07d190ed4013130^sys_idNOT IN438b6654c3975210c07d190ed401313d,8f8b6654c3975210c07d190ed401313b,c38b6654c3975210c07d190ed401313e"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ef8496d4c3175210c07d190ed4013130^sys_idNOT IN32760318c31b5210c07d190ed40131d2,438b6654c3975210c07d190ed401313d,8f8b6654c3975210c07d190ed401313b,c38b6654c3975210c07d190ed401313e,de38c398c31b5210c07d190ed40131e0"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2a958f94c31b5210c07d190ed4013197</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Refund LifeCycle">ef8496d4c3175210c07d190ed4013130</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 23:08:34</sys_created_on>
+        <sys_id>32760318c31b5210c07d190ed40131d2</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 23:25:33</sys_updated_on>
+        <ui_id>88bf3089-3c8d-42c5-90fd-7a3ccff490d6</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">b6f69a98c3175210c07d190ed4013137</block>
@@ -1108,17 +1361,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>5</order>
+        <order>6</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:53</sys_created_on>
         <sys_id>438b6654c3975210c07d190ed401313d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:59</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:33</sys_updated_on>
         <ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</ui_id>
         <values>H4sIAAAAAAAA/+1V0W6bMBT9lcnPBBlIyJq3KlWlSd0qrVVftgpdjEm8GZvZJmmG8u+7BkKitVM7LY97w8e+1+cc3yNaohtXN87e60trxUqRxZfHgAjlMfxuiYKKkwVhWhXCCa2yDgjIBmTjN/CzELaWsHs4ImwtZGH40K0GgzWOG7Jof9sSBRaUFMrogkUsidMkpjR+P43yNMmjuEiAQ4wNJeRc4tHlgca7mw4J/sjP7WqPW2eEWg3rm6HL3QHUpvCsIhoQ/uS4KjjyKUFaHpAKVAFOm92IGA7FrZJHYC2U6wVX8GTFT7wwns38wZKjRDa4MS6zwakeLq/AAVJpmGvMaJwWjNvenIKX0Ei3PMX6A7e1l9qXOMjloVrLplKfekfI2ODkYRqLJHjtlXrqg47ybq23nw8sr4XqXBk2pWYgxxU49C5vnOfTEi55hY2yCuoaHc1qozeiK0YuVbiSuAhLqbd4qZ+uEJgnHqKxEF4jftXBD2CEV/ER22BxTzMHK1jWTSK2Q5s42QfE7uxSgrVHkehu9qPxFHvJg7is98eXMCNqd4k3b/igYx88H+yTmW7bOElZOpvGk3ges8k0mSeTPMn5JE3LMs3pHOhFGiJb1Asysw4c3++/NpQmONvfOHM4SM+Cca62Z01X9FK6XsjVX0YqfiVS/j3fmChK6f9I/XOkhM36IAzausvPmKhHH5/+ztFrJixSu/fYh8MfxW/scLgEO4W22nz3oo7Y/hfYw5ELmwYAAA==</values>
         <workflow_reference/>
@@ -1141,12 +1394,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:53</sys_created_on>
         <sys_id>8f8b6654c3975210c07d190ed401313b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:59</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:32</sys_updated_on>
         <ui_id>f1de4b87-15f8-4a69-9dbb-dca41183806c</ui_id>
-        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4XOjiHbsbPmVqQoUKBbgbXoZSsMWpYTYbLkSXLSLMh/H+WPJNhSbMV63M16FMnHJz54R3TrmtbZR31lrVgqMv/yHBChPIbfO6Kg5mROmFalcEKrvAMCsgbZ+sBtdQFNY/Sal4iWwjYStk9ng2wlZGn40KMBg5UcN2S++yUkSsytKFTRJYtYEmdJTGn8YRoVWVJEcZkAhwQLSii4xKuLkdzFXYcEr7J228bj1hmhlsP5bqjyMILalJ5VRAPCXxxXJbKfVyAtD0gNqgSnzfaAGA7lvZJHYCWUw3LEX36x4gc2jNPUX6w4jsh4Hzwc80G0Hq6uwQFSaZlrzXCVrbRg3PbilLyCVrrFKdZfuG/8qH2Kg0KO2Vq2tfrUK0IOBcY3QqS1SII3flJPfZijeljpzeeR5Y1QnSpDUGoG8nACh9oVrfN8doRLXmOhvMa3R0VzvwCiS0YudbiUeAgrqTfY1O9cCMwTD1FYCG8Qv+7gJzDCT/ERy2ByT7MAK1je7SeWQ5k42QfEbu1CgrXHIVHd/HvrKfYjD8PlvT4+hRnRuCvsvObDHPvg93U/2fTdLk4ylqXTeBLPYjaZJrNkUiQFn2RZVWUFnQG9zMJ+4UHm1oHj+/3XltKkfN0j71X2be66hLRKI5qed9c0O+euM756o6XiP1jKv+dfOopS+t9S/2wpYfPeCMNsXfN3dNSzt0/f86A1ExapPXrsdvzP+MAWl0uwU2ijzTc/1BHb/wSDwFJJsQYAAA==</values>
+        <values>H4sIAAAAAAAA/+1V0WrbMBT9laFnxzh27Cx5KymFQbfCWvqyFXMtyY2YLHmWnDQz+fddWXYS2pStrI97i87VvTrn+B7SEd3aurXmTl8YIx4VWX57CIhQDsPfHVFQcbIkVCsmrNAq74GAbEC2rgB13egNZwgxYWoJu/uXFboWkjV8mF5DgzMsb8iye1YSDBvLCMrpgk5pEmdJHEXxx9m0yJJiGrMEOCQ4UELBJV5djbQ+XPdI8Cpfu6sdbmwj1ONwvh6m3I6gbphjNY0Cwp8sVwzZL0uQhgekAsXA6mZ3QBoO7EbJI7AWyuI44i4/GfELH4zT1F0sOUqk3BcPx3xwzMPlJVhAKi21bTNcpWstKDfeHMZLaKVdnWL+wk3tpPoWC4Ucu7VsK/XFO0IOA8YPhEhrkASvnVJHfdBR3q719uvI8kqo3pWhKDUFeTiBRe+K1jo+HeGSVzgor/Dbo6O5WwDRNyOXKnyUeAhLqbf4qNu2EKgjHqKxEF4hftnD99AIp+IzjsFmT7MAI2jebyaOQ5s42QfE7MxKgjFHkehu/rN1FL3kQVzu/XEttBG1vcCXN3zQsQ9eLvrJjnddnGQ0S2fxJJ7HdDJL5smkSAo+ybKyzIpoDtEiC/3Cg8yNBcv3++9tFCXs9YC819i3pWsBaZlOo/R8umbZuXSdydUbIxX/IVLue/5loqIo+h+pf46UMLkPwqCtf/wdE/Xg4uPfPHhNhUFqdw77NP7DuMIOl0vQU2irmx9O1BHb/wbllG8zqwYAAA==</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -1160,19 +1413,45 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>7</order>
+        <order>11</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:53</sys_created_on>
         <sys_id>c38b6654c3975210c07d190ed401313e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:59</sys_updated_on>
+        <sys_updated_on>2025-01-20 23:25:33</sys_updated_on>
         <ui_id>5b6adbca-02f6-48ea-ba12-c8ebe9db33e5</ui_id>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnQZCs2Gh8CxQECJA2QJPm0gbCiqRsohTJkpQdV/C/d6mHbSTuw2iPvYmzy93Z4Q7UEt1403j3qK+cE0tFFp+fIyJUwPC7JQpqThaEasWEF1oVHRCRNcgmBG6rSS6142yS69pI7kOQCWckbJ9+lUNXQjLLh44GLNb13JJF+yokGJaoEqjSS5rSbDrPpkkyfXeRlvOsTKcsAw4ZFpRQcomp+Uh1ctch0U9n8FsTcOetUMvhfDdUeRhBbVlglSYR4S+eK8aRTwXS8YjUoBh4bbd7xHJg90oegJVQHsuRkPzixHdsOJ3NQmLFcUTK++D+WAza9XB1DR6QSkN9Y4dUutKCcteLw3gFjfT5MdYn3Jswan/FQynH21o2tfrQK0L2BcanQqRxSIKbMGmgPsxRPaz05uPI8kaoTpUhKDUFuT+BR+3Kxgc+LeGS11ioqMEYVLQwVq9Fdxm51PFS4iGupN5g07CBMdBAPEZhIb5B/LqDn8CKMMV7LIOXe5olOEGLbluxHMrEyS4ibutyCc4dhkR1i29NoNiPPAxX9PqEK9QK46+w85oPc+yit8t/tPdtm+Nbe9xpbSefDAufRRrTxqJAPnYegd3uS5MkGcveWuLc6+e55RJm1SxNZqfdcjE/5ZYTPjnTItPfWCS8zx86JEmS/xb5a4sIV/SLPczWNf+HDnkOduh77rWmwiG1x4Ddjn+RENjicgl6DG20/RqGOmC7H8hWu/SPBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e877c358c31b5210c07d190ed40131f2</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Refund LifeCycle">ef8496d4c3175210c07d190ed4013130</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <parent_ui_id>5b6adbca-02f6-48ea-ba12-c8ebe9db33e5</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 23:16:10</sys_created_on>
+        <sys_id>de38c398c31b5210c07d190ed40131e0</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 23:25:33</sys_updated_on>
+        <ui_id>90c75d9f-1ca5-4e32-897b-740139de230b</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=ef8496d4c3175210c07d190ed4013130"/>
@@ -1260,18 +1539,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f38496d4c3175210c07d190ed4013173","name":"plan","plan_signature":null}}</plan>
         <plan_id>2e539a54c3175210c07d190ed401318e</plan_id>
-        <snapshot>aa9ee698c3975210c07d190ed4013178</snapshot>
+        <snapshot>aa6a4b5cc31b5210c07d190ed40131f0</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:30:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f38496d4c3175210c07d190ed4013173</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 21:23:59</sys_updated_on>
-        <trigger display_value="">a38496d4c3175210c07d190ed4013171</trigger>
+        <sys_updated_on>2025-01-20 23:21:49</sys_updated_on>
+        <trigger display_value="">cf764318c31b5210c07d190ed4013138</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=2e539a54c3175210c07d190ed401318e"/>
 </record_update>
