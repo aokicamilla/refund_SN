@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="assignement_group" label="Assignement Group" language="en" table="x_1593670_reembo_0_refund_category">
+    <sys_documentation element="assignement_group" label="Assignment Group" language="en" table="x_1593670_reembo_0_refund_category">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>assignement_group</element>
             <help/>
             <hint/>
-            <label>Assignement Group</label>
+            <label>Assignment Group</label>
             <language>en</language>
             <name>x_1593670_reembo_0_refund_category</name>
-            <plural/>
+            <plural>Assignment Groups</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-01-20 16:51:19</sys_created_on>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_name>Assignement Group</sys_name>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Assignment Group</sys_name>
             <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
             <sys_policy/>
             <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
             <sys_update_name>sys_documentation_x_1593670_reembo_0_refund_category_assignement_group_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 16:51:20</sys_updated_on>
+            <sys_updated_on>2025-01-21 12:38:19</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

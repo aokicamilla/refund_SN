@@ -2,28 +2,28 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description/>
+        <description>forçando a ACL nos campos da tabela task</description>
         <local_or_existing>Local</local_or_existing>
-        <name>x_1593670_reembo_0_refund_category</name>
-        <operation display_value="delete">delete</operation>
-        <script/>
+        <name>x_1593670_reembo_0_refund.description</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = gs.getUser().isMemberOf(current.assignment_group.sys_id.toString());]]></script>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-20 16:48:57</sys_created_on>
-        <sys_id>d29f2d94c3535210c07d190ed4013121</sys_id>
+        <sys_created_on>2025-01-21 13:46:36</sys_created_on>
+        <sys_id>747fce64c3d79210c07d190ed4013156</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1593670_reembo_0_refund_category</sys_name>
+        <sys_name>x_1593670_reembo_0_refund.description</sys_name>
         <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name>sys_security_acl_d29f2d94c3535210c07d190ed4013121</sys_update_name>
+        <sys_update_name>sys_security_acl_747fce64c3d79210c07d190ed4013156</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-20 16:48:57</sys_updated_on>
+        <sys_updated_on>2025-01-21 13:46:36</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
