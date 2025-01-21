@@ -6,7 +6,7 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
-        <collection>x_1593670_reembo_0_refund</collection>
+        <collection>sys_user_grmember</collection>
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
@@ -36,39 +36,39 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>We inform you that your refund for the total amount of ${amount} has been completed.</p>
-<p>Thank you for your patience.</p>
-<p>Best regards,</p>]]></message_html>
+        <message_html><![CDATA[<p>Hello Manager!&nbsp;</p>
+<p>${user.first_name} was added to the ${group.name} group</p>
+<p>Regards.</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Refund Closed Complete</name>
+        <name>Member was added to a group</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>opened_by</recipient_fields>
-        <recipient_groups/>
+        <recipient_fields/>
+        <recipient_groups name="Refund RH Managers">0e53d590c3df1210c07d190ed40131e3</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Your refund ${number} was closed!</subject>
+        <subject>A new member was added to the ${group.name} group!</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-20 23:06:24</sys_created_on>
+        <sys_created_on>2025-01-21 18:01:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d7f50b94c31b5210c07d190ed401311c</sys_id>
+        <sys_id>2319c360c31f9210c07d190ed4013196</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Refund Closed Complete</sys_name>
+        <sys_name>Member was added to a group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name>sysevent_email_action_d7f50b94c31b5210c07d190ed401311c</sys_update_name>
+        <sys_update_name>sysevent_email_action_2319c360c31f9210c07d190ed4013196</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 19:51:33</sys_updated_on>
+        <sys_updated_on>2025-01-21 18:08:10</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

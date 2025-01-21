@@ -3,16 +3,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-20 19:51:11</sys_created_on>
+            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f7495a5cc3175210c07d190ed401314b</sys_id>
+            <sys_id>b1612facc35f9210c07d190ed40131ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1593670_reembo_0_refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">a349d2d8c3175210c07d190ed4013196</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">2015ad94c3135210c07d190ed40131c8</sys_ui_section>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 19:51:11</sys_updated_on>
+            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1593670_reembo_0_refund</name>
