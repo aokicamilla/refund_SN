@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>forçando a ACL nos campos da tabela task</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1593670_reembo_0_refund.state</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = gs.getUser().isMemberOf(current.assignment_group.sys_id.toString());]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 13:46:18</sys_created_on>
+        <sys_id>686fc264c3d79210c07d190ed401312e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593670_reembo_0_refund.state</sys_name>
+        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_update_name>sys_security_acl_686fc264c3d79210c07d190ed401312e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 13:46:18</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</application>
+        <file_path/>
+        <instance_id>408484101bad86d87d9d2f8dee4bcbb8</instance_id>
+        <instance_name>dev259545</instance_name>
+        <name>sys_security_acl_686fc264c3d79210c07d190ed401312e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;forçando a ACL nos campos da tabela task&lt;/description&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_1593670_reembo_0_refund.state&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[answer = gs.getUser().isMemberOf(current.assignment_group.sys_id.toString());]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-21 13:46:18&lt;/sys_created_on&gt;&lt;sys_id&gt;686fc264c3d79210c07d190ed401312e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1593670_reembo_0_refund.state&lt;/sys_name&gt;&lt;sys_package display_value="Reembolso" source="x_1593670_reembo_0"&gt;2bf059dcc39f1210c07d190ed4013142&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Reembolso"&gt;2bf059dcc39f1210c07d190ed4013142&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_686fc264c3d79210c07d190ed401312e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-21 13:46:18&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1813613637</payload_hash>
+        <record_name>x_1593670_reembo_0_refund.state</record_name>
+        <reverted_from/>
+        <source>29969190c3df1210c07d190ed4013162</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 13:46:19</sys_created_on>
+        <sys_id>ec6f8e64c3d79210c07d190ed40131a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194891d31c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 13:46:19</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>e06f8e64c8d7921061a4e1850b875fa8</update_guid>
+        <update_guid_history>e06f8e64c8d7921061a4e1850b875fa8:-1813613637</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 12:29:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>249beb561e3c4f7b86022c1732c0cf29</sys_id>
+        <sys_metadata>686fc264c3d79210c07d190ed401312e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593670_reembo_0_refund.state</sys_name>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_parent display_value="x_1593670_reembo_0_refund">dcf26594c3135210c07d190ed40131d1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope_delete display_value="">1ff4e19919a643d9869c5b0e3e183311</sys_scope_delete>
+        <sys_update_name>sys_security_acl_686fc264c3d79210c07d190ed401312e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_686fc264c3d79210c07d190ed401312e">ec6f8e64c3d79210c07d190ed40131a8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 12:29:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

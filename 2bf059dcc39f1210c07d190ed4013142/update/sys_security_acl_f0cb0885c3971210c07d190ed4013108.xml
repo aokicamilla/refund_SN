@@ -6,35 +6,37 @@
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description>Allow read for records in x_1593670_reembo_0_refund, for users with role x_1593670_reembo_0.refund_rh_approver, and if the ACL script returns true.</description>
+        <description>Allow read for records in x_1593670_reembo_0_refund, for users with role x_1593670_reembo_0.refund_user, and if the ACL script returns true.</description>
         <local_or_existing>Local</local_or_existing>
         <name>x_1593670_reembo_0_refund</name>
         <operation display_value="read">read</operation>
-        <script><![CDATA[answer = gs.getUser().isMemberOf(current.assignment_group.sys_id.toString());
-]]></script>
+        <script><![CDATA[if (gs.getUserID() == current.opened_by.sys_id.toString() || 
+    gs.getUserID() == current.opened_by.manager.sys_id.toString()) {
+    answer = true;
+}]]></script>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-21 16:19:38</sys_created_on>
-        <sys_id>0a22fa60c39b9210c07d190ed401314a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_on>2025-01-22 17:30:25</sys_created_on>
+        <sys_id>f0cb0885c3971210c07d190ed4013108</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>x_1593670_reembo_0_refund</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name>sys_security_acl_0a22fa60c39b9210c07d190ed401314a</sys_update_name>
-        <sys_updated_by>raas_tester</sys_updated_by>
-        <sys_updated_on>2025-01-22 17:53:19</sys_updated_on>
+        <sys_update_name>sys_security_acl_f0cb0885c3971210c07d190ed4013108</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 18:20:37</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>0a22fa60c39b9210c07d190ed401314a</id>
+        <id>f0cb0885c3971210c07d190ed4013108</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-21 16:19:36</sys_created_on>
-        <sys_id>c2727a60c39b9210c07d190ed40131db</sys_id>
+        <sys_created_on>2025-01-22 17:30:22</sys_created_on>
+        <sys_id>984c44c5c3971210c07d190ed401311c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 16:19:36</sys_updated_on>
+        <sys_updated_on>2025-01-22 17:30:22</sys_updated_on>
         <table>sys_security_acl</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>
