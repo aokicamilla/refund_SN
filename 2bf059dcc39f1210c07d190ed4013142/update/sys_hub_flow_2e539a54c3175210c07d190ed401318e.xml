@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=80479000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=329295000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>refund_lifecycle</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.opened_by.manager","label":"Trigger - Record Created or Updated➛Refund Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Refund Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1593670_reembo_0_refund","column_name":"state","choices":[{"image":"","used":false,"label":"Requested","rawLabel":"Requested","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Awaiting Manager\u0027s Approval","rawLabel":"Awaiting Manager\u0027s Approval","selected":false,"missing":false,"reference":false,"value":"8","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Awaiting Payment","rawLabel":"Awaiting Payment","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Reproved","rawLabel":"Reproved","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Closed","rawLabel":"Closed","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}}],"usedInstances":{"5b6adbca-02f6-48ea-ba12-c8ebe9db33e5":["condition"],"f1de4b87-15f8-4a69-9dbb-dca41183806c":["condition"],"592b27af-3c12-4104-86cd-e27a3d0daaa4":["condition"],"9e60a4ed-820d-445b-9818-fddb7c9fc5ee":["condition"]}},{"name":"236c6542-272c-4373-b3be-66ff6b07a096.approval_state","label":"6 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f1de4b87-15f8-4a69-9dbb-dca41183806c":["condition"],"592b27af-3c12-4104-86cd-e27a3d0daaa4":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.506a11d8c3df1210c07d190ed401311b}}","label":"Refund Operational Users Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}},{"name":"Created or Updated_1.current.category","label":"Trigger - Record Created or Updated➛Refund Record➛Category","reference":"x_1593670_reembo_0_refund_category","reference_display":"Refund Category","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund","column_name":"category","usedInstances":{"5a4950e7-892d-4727-8dfe-03196a9582e0":["conditions"]}},{"name":"Created or Updated_1.current.category.name","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"name","usedInstances":{}},{"name":"Created or Updated_1.current.category.assignement_group","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Assignement Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"assignement_group","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["assignment_group"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Refund Record","reference":"x_1593670_reembo_0_refund","reference_display":"Refund","type":"reference","base_type":"reference","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["record"],"236c6542-272c-4373-b3be-66ff6b07a096":["record"],"34a9e282-3060-4887-84c1-e5666360c3fc":["record"],"23503728-1374-4e50-bd7a-df31dbb88b3b":["record"],"c687e319-fb23-46c3-bb91-599d5bfd6a1b":["record"],"c9dbdee5-b0b9-494c-a73c-446c31ed853e":["record"],"60596941-3e1f-47e8-9b04-6f6999d6437e":["record"],"3d4e1c01-e139-4d4a-9e9e-1431a79bac74":["record"],"0393ea20-f66a-4429-aed5-9ffd3a93fa3e":["conditions"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Refund Record","reference":"x_1593670_reembo_0_refund","reference_display":"Refund","type":"reference","base_type":"reference","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["record"],"236c6542-272c-4373-b3be-66ff6b07a096":["record"],"34a9e282-3060-4887-84c1-e5666360c3fc":["record"],"23503728-1374-4e50-bd7a-df31dbb88b3b":["record"],"c687e319-fb23-46c3-bb91-599d5bfd6a1b":["record"],"c9dbdee5-b0b9-494c-a73c-446c31ed853e":["record"],"60596941-3e1f-47e8-9b04-6f6999d6437e":["record"],"3d4e1c01-e139-4d4a-9e9e-1431a79bac74":["record"],"0393ea20-f66a-4429-aed5-9ffd3a93fa3e":["conditions"]},"attributes":{}},{"name":"Created or Updated_1.current.category.assignement_group","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Assignement Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"assignement_group","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["assignment_group"]}},{"name":"Created or Updated_1.current.category.name","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"name","usedInstances":{}},{"name":"Created or Updated_1.current.category","label":"Trigger - Record Created or Updated➛Refund Record➛Category","reference":"x_1593670_reembo_0_refund_category","reference_display":"Refund Category","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund","column_name":"category","usedInstances":{"5a4950e7-892d-4727-8dfe-03196a9582e0":["conditions"]}},{"name":"{{static.506a11d8c3df1210c07d190ed401311b}}","label":"Refund Operational Users Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}},{"name":"236c6542-272c-4373-b3be-66ff6b07a096.approval_state","label":"6 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f1de4b87-15f8-4a69-9dbb-dca41183806c":["condition"],"592b27af-3c12-4104-86cd-e27a3d0daaa4":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Refund Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1593670_reembo_0_refund","column_name":"state","choices":[{"rawLabel":"Requested","selected":false,"label":"Requested","reference":false,"used":false,"image":"","missing":false,"value":"1","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"rawLabel":"Awaiting Manager\u0027s Approval","selected":false,"label":"Awaiting Manager\u0027s Approval","reference":false,"used":false,"image":"","missing":false,"value":"8","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"rawLabel":"Awaiting Payment","selected":false,"label":"Awaiting Payment","reference":false,"used":false,"image":"","missing":false,"value":"2","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"rawLabel":"Reproved","selected":false,"label":"Reproved","reference":false,"used":false,"image":"","missing":false,"value":"4","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"rawLabel":"Closed","selected":false,"label":"Closed","reference":false,"used":false,"image":"","missing":false,"value":"3","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}}],"usedInstances":{"5b6adbca-02f6-48ea-ba12-c8ebe9db33e5":["condition"],"f1de4b87-15f8-4a69-9dbb-dca41183806c":["condition"],"592b27af-3c12-4104-86cd-e27a3d0daaa4":["condition"],"9e60a4ed-820d-445b-9818-fddb7c9fc5ee":["condition"]}},{"name":"Created or Updated_1.current.opened_by.manager","label":"Trigger - Record Created or Updated➛Refund Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}}]</label_cache>
         <master_snapshot>ef8496d4c3175210c07d190ed4013130</master_snapshot>
         <master_snapshot_digest/>
         <name>Refund LifeCycle</name>
@@ -36,15 +36,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2e539a54c3175210c07d190ed401318e</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name>Refund LifeCycle</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name>sys_hub_flow_2e539a54c3175210c07d190ed401318e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:32</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:29</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -75,7 +75,7 @@
         <sys_id>d356cb6cc3db9210c07d190ed4013149</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-21 17:46:32</sys_updated_on>
         <table>x_1593670_reembo_0_refund</table>
@@ -86,14 +86,14 @@
         <identifier>2e539a54c3175210c07d190ed401318e</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-21 17:46:32</sys_created_on>
-        <sys_id>9f56cb6cc3db9210c07d190ed4013149</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2025-01-24 14:53:29</sys_created_on>
+        <sys_id>b18b7da5c31f5210c07d190ed4013151</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:32</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:29</sys_updated_on>
         <trigger display_value="">d356cb6cc3db9210c07d190ed4013149</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=2e539a54c3175210c07d190ed401318e^sys_idNOT IN9f56cb6cc3db9210c07d190ed4013149"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=2e539a54c3175210c07d190ed401318e^sys_idNOT INb18b7da5c31f5210c07d190ed4013151"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=2e539a54c3175210c07d190ed401318e"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=2e539a54c3175210c07d190ed401318e^sys_idNOT INe6539a54c3175210c07d190ed4013191"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -176,7 +176,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 19:29:07</sys_updated_on>
@@ -283,7 +283,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 19:29:07</sys_updated_on>
@@ -367,7 +367,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 19:29:07</sys_updated_on>
@@ -396,12 +396,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:29:07</sys_created_on>
         <sys_id>28449e94c3175210c07d190ed40131c2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:23</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:46:38</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>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</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
@@ -421,10 +421,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:30:22</sys_created_on>
         <sys_id>268456d4c3175210c07d190ed40131c6</sys_id>
-        <sys_mod_count>34</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:47:09</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:54:11</sys_updated_on>
         <ui_id>e2843c79-d7e9-4bfb-a92f-4cf790f449db</ui_id>
         <values>H4sIAAAAAAAA/+VWXW/aMBT9K8hPq0SjhAAlvE2gSpO6VqIbL11nmfiGWnPizHZoGcp/33U+AEHHWql7qMYL9r2+9jkn98S52xDByZj0gftBFAzjMAjDnu/3Rv1gMQwXQY+HDCAgXZKxFHClhlhpjvMVk4ULbDYTDcwC7yjd+ZpzN6SBFxdaQ2bLEpdyYXLJ1vOmAiPxg5Ac82R8d98lOdO4uQVNxpuD1EvRSbYAiUtnLbxDuHaduzlXcZEiLira4FVTOW0ynU9TzGCRgxP4XQJPFjIOCCRh0kCXpCxDlkqvydjqAgPIn99kcr1d8SAyWxNN2ZMRv/Dkvu/WJYDM4kaE7ZQ2AtXhZMosu8WdY1vorV5KxGBqTTgkrJB2sh+rF9zkVqisLrFsIdtqJYs0u64VIdsN9p5HYRAE5I6nQ17TSm4f1OOsBXkpskqShqJUMZPbGbNWi0VhHZwNAQmVxinLc5Etaa7VSlTFCCX1lhInXiLVI55pxDLzWOxwe6gq8y4xPq3Cc6aFI/EZt8HiskvM2kwkM2ZHBTWkPwuHpCbWUKCVCpUEtOoEVxxrkduPeNQKGuBlt+n/xeBUh8XRrqH29tx54IkGgygcXvhUA6QLRd0gKTJ+3PyzNv46C7wAYGuBL9WDfx5w44Kj2NV+bee6TjQeGLyZB0bvyQMNjXdvgr+1vt87+XLd66Sq281e2yMIRFixXGpV5N8K3w/56QvBi3G+xMbx6mrYlZfld2MxW28zOvbOPz/vdZ58gXKtJy8FSG6ekbI1JKRI1AKtpT0wZZPszJvk9nJ6M2cGQ7/6vSN//i93VBt0oA8N4GInS0jCaYWY9imVSv2gRU7rbyKv+TuyhWcVPlnU5MMZDq/UI+gJM/DhDMEbtgI+3375DVg/GvhwcT6Kevy8f9HDEU/g3A+DaMiiwagHvjf7wzn4aViW5f1vykOcqIMKAAA=</values>
     </sys_hub_action_instance_v2>
@@ -443,10 +443,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:47</sys_created_on>
         <sys_id>2d8b2654c3975210c07d190ed401315e</sys_id>
-        <sys_mod_count>28</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:47:09</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:54:11</sys_updated_on>
         <ui_id>c687e319-fb23-46c3-bb91-599d5bfd6a1b</ui_id>
         <values>H4sIAAAAAAAA/+VWUU/bMBD+K1GeitRFSVsKdE8THdImBhJsvFBmufGl9ebYme0AXdX/vnPslKplDCRe0PrS+M53/r7L9yW5XsacxaN4ACzNjrJh3s/6/V6a9g4H2XTYn2Y91qcAWdyNJS0Bd2rIlWa4vqWidoHl8lgDtcAipaNvFXOXJEvyWmuQdrXCrYybStDFVajASD7ngmE+Hl3fdOOKamxuQcej5VbquegEnYLArRctvG24dlG5NVN5XSIuwtvgaagch0z0aYwZLHJwsrQbw70FyQCBFFQY6MYllchS6UU8srrGAPJn51Is1jvmXFpPtKT3hv/Gkwep21cAMsvDENZLEgbkw8WYWnqJnXNb6/W8FM/B+JkwKGgt7PFmzG84ryxX0pdYOhVttRJ1Kc/8ROJ1g437URsEAZXj6ZB7WsXlXN1dtCBPuGxGEigKlVOxXlFrNZ/W1sFZxiCgmXFJq4rLGam0uuVNMUIpk5nARVIIdYdnGj6TCc0d7gSnSpMTjI+b8BXV3JH4gm2weNWNzcIcC2rMAxWcIflVOySeWKBAmik0IyCNElxxrnllP+BRtxCAr7pB/9P9pxSWHz0IaqPngwfuSbZ/1B8epEQDlFNF3EVRS7Yr/os2/jILPANga4GvzY1/HHBwwU7sdLM2OvOJ4IH9V/PA4VvyQKDx5k3wL+mnvScfrhtKatRuNmRvLD7sJ3Wa9tnguwbHkApUPjVK+nDB3vmz4RErvLT8ZY55Bq/WMSccBDOPEG3tAiXitkA88S3LhGR0FZLrV8er+SYbps3vDbnnP3iDeIo+5jBvKdiFnipAleloqybyso8KRhomJMsIEUr9JHVF/KdMEv5wDG5CJpmB/axqLan4KK1edLK99xP5l75b4QRHXnb2EpQOtx23p3cwmUh/sbfTJTFzXthOk0BhyZ12PxSXO21wqIbeAltrZbVa3fwBYPeBZHgKAAA=</values>
     </sys_hub_action_instance_v2>
@@ -465,10 +465,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 23:12:23</sys_created_on>
         <sys_id>4b574358c31b5210c07d190ed40131f1</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:47:09</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:54:11</sys_updated_on>
         <ui_id>0393ea20-f66a-4429-aed5-9ffd3a93fa3e</ui_id>
         <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyl+zcigQGCnQboEl76XYJSqRi7tKkSlJJE8P/vUORsg1bsS2sAiTYmzkckm9m3htS/r4KGQkvQzKLZvlsNp4mUTQcRtFkMsxwnKbDSZZGKR6FvVDgJQVPg1NOYfiAeWnH+knjolASxsj9oAqmCdMFx0/fvNcH7wIz2YJxoqgIL7//6IUFVrCvgTWXq72pc4FxnFIOrnce2R5Q81Rshqiac7ZPu8uCz25CKmKhRL2Q/jJUEAoYcsw17YVLLAg2Uj1tLIpiciP41rBgwsCOoXX+pdkznDuNrF9OIaqMurnNEPkkOXN+jQ2+NarMTKm8a7aQLKPa5YPQHJfcXO3anMNNYZgUbokL262WvFyKzy4d4WaDuiZgKTWAoIUN1CL3YeS3C/n4pUY5Z6LKiZ/kMoMy1iNsjGJpaSyeVUg5XcJGaAlEYOIe2ZqzajFgWfbvOQz6OZePcKhm96KPMwu8D3nF/TnYryvzN6yYjeJP2KYiU844MAS5EmpZqiqVDyjjpa4mFBba7RWue5aSVxxrvY0cUo5+lha3y4OPGLmk2SWZYoX5AFs8UB/culdrY3yUgrMt5TIpCLModLNA/iphB7JaXQFzDCWBVMHXgtifKO5npYJ8m/X6b23A5HwV/YdmMH+oqK62bSnH07mo5Xi1m4ymBHlhHtg+NW3ghRl3JsxRFL0nacLhb0+Z7bXmUnBCcDE5SjKy5ZOWyiCXyx3FHYqlNc/PgFDz/MYyM0ifXkLlaZ4zyknT/TO3E3v3z+D/ef+8SZIDIIJc9ZjgTFSPCQD6WuwfH6VeGu/xrKLXzm1jbVhnhxrAgZHBc2slnAGnVsItnB3cOTwNEOt+X1Fmv9fXRi+AYWcCGA66EcBqE+YmkQ05r9+Ptpq1/7P1x/v+QMGdBfG6SWCtzozbnjlYHwp42ErBu2RzM9cvcK7jh+YLiuy9ZgtYwFJ/HnL6RY+M3FOzPb32ItI8Yv5v07xnHKoLVYX3Co/W+Oh3U7rzaGU5WkLlWAFva0UzIIdGWFGUy1IQ5F/VWyLZSuZMaeOdDxvNFwr6EYEEYQZmQYPKO9h4t7yIT8dRp/JjHtSB+NN0AIEEVSDBJpB2YbdpWqMOH6ddN605ZryqBnwwFTvlpEpJ9ULjOlHII4w4s6udCSruFNR/b3tNEmhsfyewvouv7+5bU0ZxOhrgSTKM4yiKI5JE0ySJp5M0n+BklG81ipAWGXRT2DkHqsD2qKZGXefosP+4ltq20ZyBqqbgtRT2M3qQmMDCgvoGNazTwH1DSaXkFIu9jnIH98Qfc4/f83X85rrKu/gvqmR3+5l2psZcv9a7oWRfBftZ0o+WYlMaDaYxyS6mSZxcjHIyuZgRPL7As3ScDAnNRnmXT4EfvwFnUQ3n3RUAAA==</values>
     </sys_hub_action_instance_v2>
@@ -487,10 +487,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 23:04:43</sys_created_on>
         <sys_id>62958f94c31b5210c07d190ed4013194</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:47:09</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:54:11</sys_updated_on>
         <ui_id>c9dbdee5-b0b9-494c-a73c-446c31ed853e</ui_id>
         <values>H4sIAAAAAAAA/9WW207jMBCGX6XK1a7UVHEOTcodAiEhsSAByw1CkWOPwZJzwHGAbtV333GSHinHXVbau3rs8cz8M1/c65kjubPnhDzhfCKIJwghHvEi4pMEEshYPI7BT5yhU9Ac8KQGVmqO6weqGmuYzQ40UAN8UOrBz4rbnykZsUZrKMx8jke5rCtFp1e9B1rYnVQc952965uhU1GNlxvQzt5sa+u92SmagcKj54v0ttM108quecmaHPNK5cJ40nse9juD40PcQSebDhk68GSg4IB5CKpqGDo5LbDIUk+XFqyfnxVqZbiThekKzelTLX9h5MC35wRgZawXYblMe4E6szikhl4Y3TDT6KVepWRQd5pwELRR5mDd1h04q4wsi87F0EwtvEvV5MVpp4izvGCtH02NSUBlC7WZY3CsQlzclY/niySPZNFK0peoSkbVckWN0TJrjE1n5jTycpfanXm33qCgPZjTqpLFbVrp8kG28TD7fHSrcDESqnzENGt5W4wos6WOsBN0dIT2w9Z8RbW0df/Aa9DZxvxZyPsGju0cceLFwcRjbuxHgRt6jLpZwjOXZr6IwnCcjDPizIdOPa0PFK3rlWLYqvS+sQV3+vVKpa3YrdJpO3DWmWlZmX1M7wF6febDHrOEvDbIgb+a27U7V6g9pSSaBOPYSzVAnpWp/SGagj9n7Hxh/xhp70hwQdplO1+7E+5he2Y7WfcdnHYbPWr+B1HrZnQHaYn3H5HWl/XnqG1ovUnahtr/BDSWZZnIYOKSjDE3jCFxE5/GLkQeC4QfeF4sPgHaW3iFr0/v2itWlEYKyWjbxBVgoUfCRJCQBSSLfOIxL+Zk4gHHjYBE45c4G+xXVkd8A789UmkGAp9CVLNSYAN8//iD93YhCwxPNyvZXV/P44qKTRzP1+w9jcHrNHbwfebdw5bDg+0o5FSqtJuuFxDdqu0v4/pSJhsMUyGA2X80QoLiOIZp6/Mlj6i4AKrZ3ZGNZHvYAbvJ+0ZjkXqM8Yz39XZ+He6Xz2eqBpP2sqT2ghQ5yKmdiLbC7a9EOCEQB37iTsY+fiUgiNyMB4FL8KsBQEH4/Gue45vf6q1DVPcKAAA=</values>
     </sys_hub_action_instance_v2>
@@ -509,10 +509,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 23:04:43</sys_created_on>
         <sys_id>62958f94c31b5210c07d190ed4013197</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:47:09</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:54:12</sys_updated_on>
         <ui_id>60596941-3e1f-47e8-9b04-6f6999d6437e</ui_id>
         <values>H4sIAAAAAAAA/9WW207jMBCGX6XKdVPFSdqk3K2okJBYkMrhZoUixx5TS84Bxyl0K959x0l6Liywy0p7V49P//wzX9wfS0dy58QJecz5WBBPEEI84g2JT2KIIWXRKAI/dvpOTjPAlRpYoTmO51TVNrBcnmqgBniv0L3bktufCRmwWmvIzcsLLuWyKhVd3HU7MMJmUnGcd05+3Pedkmo83IB2TpZ7U+9Vp2gKCpdOV/L25ZpFace8YHWGuhK5Cl50OyfdTO98gjO4ycohfQeeDeQcUIegqoK+k9Eckyz0Yh3B/PlVrjaBmcxNm2hGnyv5E28OfLtOAGbGOhPWw6QzqA2LCTX02uiamVqv/Sokg6r1hIOgtTKn27F2wVVpZJG3WwxN1Wp3oeosv2wdcdYHbNWjrlAElDZRqxwvxyzE9ax4mq5Ensm8saRLURWMqvWIGqNlWhsrZ+nU8uaY2234uN+goFmY0bKU+UNS6mIum/tQfTZ4UDgYCFU8ocxKPuQDymyqA6wEHZxhfNKE76iWNu/veAxutnfe5vKxhnPbR5x4UTD2mBv5w8ANPUbdNOapS1NfDMNwFI9S4rz0nWpRnSpaVRvHsFTJY20Tbv3rnEoasxunk6bh7GamZWm+obw5dP689DvMYvJWIwf+pm+3ztyg9pyQ4TgYRV6iAbK0SOwPUef8kLHpKv4x0t4hcEXaTdNfxwV3sB3ELrb39i7biQ41/4OotT16hLTY+49I69L6c9R2vN4lbcftfwIaS9NUpDB2ScqYG0YQu7FPIxeGHguEH3heJD4B2u/wCt/u3q1XLC+MFJLRpogbwHwaDr1oHLKApEOfeMyLOBl7wEOPBITBa5z1pmB9hI8D9w7JK+AudzUfz6Qjb9P/u+BNt+Idd8Hb3LWYfeaFw+LC3NYOMipV0vbRKzDu5faXwXxNyQ6tVAhg9r+LkKA4NlzS7PmS51JcA9VsdmZvsjVs0dwle6ewyDfecUD2djm/Duybw56qwCSdLYk9IBGFzqjtiCbD/e9BOCYQBX7sjkc+fg8gGLopDwKX4PcBgILw+dc8vPe/AA0o1cfhCgAA</values>
     </sys_hub_action_instance_v2>
@@ -531,10 +531,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 23:08:24</sys_created_on>
         <sys_id>a076cfd4c31b5210c07d190ed4013180</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:47:09</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:54:11</sys_updated_on>
         <ui_id>3d4e1c01-e139-4d4a-9e9e-1431a79bac74</ui_id>
         <values>H4sIAAAAAAAA/9WWWWvjMBDHv0rwcxws24mdvi0phUK3hV4vpRgdo1YgH5XlHhv63XdkO2fTc7cL+xaNrv/8Z35WruaeEt6eF4tUiKkkgSSEBCQYk5CkkALjySSBMPWGXkFzwJUGeGkEju+pblxgPp8ZoBbEoDSDi0q4nxkZ8cYYKOzzMy4Vqq40fbrsd2CE3yotcN7bu7oeehU1eLgF4+3Nt6Y+qk5TBhqXni7kbcu1T5Ubi5I3OerK1CJ41O/c72cGh/s4g5ucHDL04NFCIQB1SKprGHo5LTDJ0jwtI5i/OCn0KnCrCtslmtPHWv3Cm6PQrZOAmfHehOUw6w3qwnKfWnpmTcNtY5Z+lYpD3XkiQNJG29l6rFtwUllVFt0WS5le7C51kxfHnSPe8oC1ejQ1ioDKJeqU4+WYhTy7LR9OFyIPVNFa0qeoS071ckStNYo11smZe4063+V2F97tN2hoF+a0qlRxk1WmvFftfag+H91oHIykLh9QZq1uihHlLtURVoKODjC+34YvqVEu7594DG52d14U6q6BQ9dHggRJNA24n4TjyI8DTn2WCuZTFspxHE/SCSPe89Crn+qZpnW9cgxLld01LuHOv96prDW7dTprG85t5kZV9gfKu4fen+dhj1lK3mrkKFz17dqZK9QeMzKeRpMkyAxAzsrM/ZBNIV4ydrqIf460DwhckHbe9tduwT1sL2JH63sHx91Ej1r4SdS6Ht1BWhr8R6T1af05ahteb5K24fY/AY0zxiSDqU8Y536cQOqnIU18GAc8kmEUBIn8Amjv4RW/3b1rr1hRWiUVp20RV4CJRI4DNo15RNg4JAEPEkGmAYg4IBEh/DXOBjNd1vgCzsq80ojX51+495UvuDvelL47oR7AFQab/J2uxXv8orfx62j7ykOHNYZ7V0LIqdJZ106vMLmV21/m8zUlG9BSKYG7vzBSgRbYd1m751teTXkG1PDbA3eTq2FH6CbgG4VFzPGOF4Cvl/P7+D5/2VM12Ky3JXMHZLI0OXUd0Wa4/VmIpwSSKEz96STEzwJEY5+JKPIJfiYAKMhQfM/7e/0bgb46DOgKAAA=</values>
     </sys_hub_action_instance_v2>
@@ -553,10 +553,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:41:01</sys_created_on>
         <sys_id>bef69a98c3175210c07d190ed4013134</sys_id>
-        <sys_mod_count>28</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:47:09</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:54:11</sys_updated_on>
         <ui_id>236c6542-272c-4373-b3be-66ff6b07a096</ui_id>
         <values>H4sIAAAAAAAA/+1XW2/aMBT+K8jPiAUo5fJWFVXatLUSbfdSqshxHHBlnMx22maI/74T27kUWgobL6x9w+fm7xy+z47vloiFaIT6g6hDh8OOF7Q9r+t5gx7xBl0adPun/S4mHmoigRcUIiUlsQxh/Yh5mhuWy3NJsaZhI5aN2yTMf/rtFkmlpEKvVhAaMpVwnP10GWAhc8ZD8KPR3X0TJVhCcU0lGi3XXLui4zigHEInBbx1uDpL8nUYk3QBuHxWGL+7zLHzNL6OwQNJORyvieizpiKkgCPCXNEmWmABTcYyQyMtUzBA++GV4FkZMWdC2z4X+Fmx37Bxt5PHRRQaI24G5dJ387HmaIw1vobKRKeyHFfMCFV2JCGNcMr1ed1mA64SzWJhUzQOeJEd83QhLu1AUFmg9nekCkDQJO8zR27biq7n8dOkAHnBhJmIa5HHBPNyhbWWLEh1DmeJKKdmxAucJEzM/ETGj8wkA5RFa8Zh0Yp4/AR7KjYTLUxy3C2YKm5dgH1szD+xZHkTP6AMJK+aSGXqnGOlqlZghv6vNEdiG3Mt+GYKdgR5HpEs0WewyyN1mFdNx/yAbOUWqahky1XEf/bbvWH3tO/5ktJFEPv5jygV4SbjJ4V9P97vgK3g/Y0Dt4bVsd4sfeN7SXqT1ri0Dsf59nbOO0tFesuWVzg/8I6I866toyf9e3z32ts4FQ4qDgEC6AFzP2KU10/8wrHJ85pnP6bvgKpg+pnbo3HhYL0F13HfLF/jvslf435nT+6/feAPPO+Y6P+RjnyylWy0W3HqIU6l2KIAf86UYcabSqhF7KeIHUAWivhmUa4LYh383+ih+6mH/18PJ72tVKt9VpSsJrEIWY5Y1VRhT2aqJvSBEq3ORHZ7t/110IoBLRiCrAWswjMqV6v7TTEdrvB+GtxhMOW7I+VUvTcop8DSKV1SXYXl9VZUdEo8OdRL5MiE+FG+y8hWrkXDilthCgMCutff4FNkYU/RaIpELOgUNacoj/JzchkzRAC40mFsy+VqZS2pxK5Au7asskOcKROpyJyGwE1jfWHxjRic/RDv/h1mUuhvnNLG2A5lc0xOdyVOOxe2cQNeuwBT6csNq9+EvYPdhCef8vtX+QFM5pePDbjm4PQ7oCbv/wC66G3uFxMAAA==</values>
     </sys_hub_action_instance_v2>
@@ -575,10 +575,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:47</sys_created_on>
         <sys_id>e18b2654c3975210c07d190ed401315c</sys_id>
-        <sys_mod_count>27</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:47:09</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:54:11</sys_updated_on>
         <ui_id>23503728-1374-4e50-bd7a-df31dbb88b3b</ui_id>
         <values>H4sIAAAAAAAA/+VVW0/bMBT+K5YfWRWSFjronhAd2iQGEt14oShy4pPWk3OZL4Wu6n/fsXMhKggViRe0vjQ+N3/fsb/juw0VnE7oEfAwOo3G6SgajYZhODw5ipLxKImGfMQAIjqgBcsBIxWkpeK4XjFpnWGzOVfADHBSKvKr4u4zjoLUKgWF2W4xlAtdSba+bTLQki6F5Oink7v7Aa2YwuIGFJ1sdlz7opMsAYmhNy28XbhmXbk1L1ObI65YtMbLJnPaeMj3KXowycGJwgGFRwMFBwSSMalhQHNWIMtSrenEKIsG5M+vC7nuIpaiMDXRnD1q8Rd3PgpdXAbILG2a0C3jpkG1OZsyw2ZYOTVWdf0qRQq67gmHjFlpzvu2OuC6MqIs6hTDEtlml9LmxVXdEdoV6J2H1QgCKsfTIa9pZbNl+XDTgrwQhW9JQ1GWKZPdihmjRGKNg7OhIMH3OGdVJYpFXKlyJXwyQsmDhcRFkMnyAffUYlEELHW4A+wqCy7QPvXmW6aEI/EDy2DydkD1Wp9LpvUTFexh/Mc6JDWxhkLsu+BbEPub4JJTJSpzhlutoANeGx3o5qbg16uB9PBgXhwcnKXYek0c2MMzj5449MRqJEzMEkjGY28pk9+QmoDMfAGSW22IAjzagjDiRRQQV/Ha3ThS2DzBP6FJmWUaDEnW5FNEREG+KoUC+4Z3T7otZlD3zINZMSEdV1L6C6BJc6GIrRBYpRCqy5nTYE4Jy1BpLTyXDo8sryRMEI0ielkqg/1PydyG4Yi3gQEe8GIBqhV24APdAXpeuOsXV6th1lVxxkO63W4HzaRJjl/Tcnr6JN3e6T1Nm8c4Oj4djT+HsQLIkzJ2H5kt+PMxc9Pa3zZs9gDYDpufXmIvA27mzTPbZT+XXNWOZtocv9u0OflI06ah8eHHzR5DpncdXh40PaWEw1dfvd7F8+LQPZVog69wrd/hc2HseN8mjz1QtfK4ECC5fgFmqw3AsYNQ4hr2jj4aJ7ltnN2L/G4iicah/30gqfwvD/P2/h9tls6YmgoAAA==</values>
     </sys_hub_action_instance_v2>
@@ -602,10 +602,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 23:04:43</sys_created_on>
         <sys_id>26958f94c31b5210c07d190ed4013198</sys_id>
-        <sys_mod_count>31</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:29</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:25</sys_updated_on>
         <ui_id>88bf3089-3c8d-42c5-90fd-7a3ccff490d6</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -628,10 +628,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 17:34:17</sys_created_on>
         <sys_id>40934768c3db9210c07d190ed4013143</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:28</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:25</sys_updated_on>
         <ui_id>9e60a4ed-820d-445b-9818-fddb7c9fc5ee</ui_id>
         <values>H4sIAAAAAAAA/+2UyW7bMBCGX8XgWRC0xEbiW5AiQIG2AZo0lzYQKHJkE6VIhosd19C7d6jFMRIHXdBjb+I/nJl/hh+0Jzp4E7y705fOiZUiy68PCREqavi9J4q2QJaEacWFF1pVvZCQDZUhBiw8BnAeOGpcOCPp7v5EiK2F5BbG+oZarOLBkuX+RcjvDFSS1iCxwq23Qq0wXXA8NRlt8guWs7JYlEWWFedneb0o67zgJQVa4r0p8WqyO/vQK8mbc8R+qLupk7Y82sqzhMCTB8XR/rKh0kFCWqo49druDooFym+UfBbWQnksR+LlJyd+YO1iPo8XG8AZGQzBw7EadzbIbK0FgxsTDQ6Kp7Ucc5iWoVWfhjnitqGhQfpp26gEh/XARNPRxWipuV3r7eep4bVQ/YBjUGpG5eFEPa6hDh5cfBiQ0GKhqqXG4HIqY/VG9MnopU1XEg9pI/UWm0Z2Usqi8RR3RNNr1N/18j21Ik7xEctg8mCzpk6wqucMy3mLI3T9WqrHEA0NA46jVMM28IJjVhh/iX02MLrukteQHvG531/hIyGEM21nXwyPn1WesmBxHT51HoWu+xayrOTnrxn+0/R/wfkFnTfzPJuf5vxscYrzE4S/DXfxC7jjc/wm21mW/Yf7GG7hqgHScba++V+z/RBBHjq4gRsOTDg0che199N/OgZ2CIBgx9JW2+9xhGet+wmvKFJw8QUAAA==</values>
         <workflow_reference/>
@@ -654,10 +654,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:47</sys_created_on>
         <sys_id>6d8b2654c3975210c07d190ed401315f</sys_id>
-        <sys_mod_count>41</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:28</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:25</sys_updated_on>
         <ui_id>5b6adbca-02f6-48ea-ba12-c8ebe9db33e5</ui_id>
         <values>H4sIAAAAAAAA/+2UTW/bMAyG/0rgs2H4ownW3IoMBQZsK7B2vWyFIUt0IkyWNElOmgX57yP9kQZtgnXFjrtZL0XyJfXAu8i0wbbB35kr7+VSR/NvD3EkNWn4vYs0ayCaR9xoIYM0uuyEOFoz1VJgoYwHMVmYxioIFBHSW8W292cv8JVUwsHQyzKHFQO4aL57FgpbC6ViFSiscxuc1EtMlwJPdcrq7JJnvMhnRZ6m+buLrJoVVZaLggEr8N6YuBitTz52Snx2JuqHuh87GSfIVpbGETwG0AKwdc2UhzhqmBYsGLc9KA6YuNHqSVhJHbBcRJcfvfyFtfPplC7WgDNy6IOHYzlsrpf5ykgON5YM9kpglRpyuFFtoz/3c9DOoWatCuPOUWk91gNLpsnFYKm+XZnNl7HhtdTdgENQGc7U4cQCrqFqA3h6GFDQYKGyYdbickrrzFp2yeilSZYKD0mtzAabEkcJ42Q8wR2x5Br19518z5ykKT5hGUzubVbMS152zGG54HCEfbeW8mdLhvoBh1HKfht4wXMnbbjCPmsYXO/jl8AesbrbLfCRAtJo3OSrFfRZZglvHa4jJD6gsN9/b9O0EMVLkv82/V9wfsmm9TRLp6c5v5id4vwE4efhzv8ANz3HK9lO0/Q/3MdwS1/2kA6zdc3fzPYDgdx38D03Arj0aOSOtA/jP5sCWwRA8mNpY9wPGuFJ2/8G/1Ixsv0FAAA=</values>
         <workflow_reference/>
@@ -680,10 +680,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:41:02</sys_created_on>
         <sys_id>bef69a98c3175210c07d190ed4013137</sys_id>
-        <sys_mod_count>43</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:29</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:25</sys_updated_on>
         <ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</ui_id>
         <values>H4sIAAAAAAAA/+1VXW/TMBT9KyPPbZSPNmV9m4YmIQGT2NgLjOjGvmkNjh1sp12J+t+5zkdbsU0gHuCFN/vY1/eck3uUNtCNqxtnb/WFtWKlguXH+0kglMdo3QYKKgyWAdOKCye0yjtgEmxANv6AllzYWsLu7oiwtZDc4PBaDYZqHJpg2f505HY15hIKlFR444xQKyoXnHZlBGV8zmKWJlmaRFHychYXWVrECU8BIaF7Y+HlSO7sTYdMnmXt+xFux07acE8rjiYBPjhUHKl1CdLiJKhAcXDa7A6IQeDXSh6BtVCuV1zBgxXf6e1kPvcXSySNbLDjsM0Hq0aXtGB4XXuCPeKgkKOFWjaVetfr8CZjCY10JyY3lt7D2pP2LAZK5c1ab9+PDa+E6gQOh1IzkIcdOLKhaBxa/2FQYkUP5RXUNZmT10ZvRFdMXKpwJWkTllJvqamflBCYJx6SRxBeEf6qg+/ACK/iLT1DxT3NAqxgeTdV9JwzJGHf2ZJ/azyhXuAgJe/doAuWGVG7C+qzwYH1fvJ4JE+msW2TNGPZfJZMk0XCprN0kU6LtMBplpVlVkQLiM6zkLiROpC5deBwv//URFFKU/kFmUP+uW0v6VPT6kybsw8198s8DlljyFQXDkUv+qr0cQL+EYu/kLr4qdQ9kbfno5b8Imp+OH4zaVEU/Y/aadSEzfvIDNq65n+ctHsfq76D7eeGIxOWiNx67PX4j/AHOxoAwU6hrTZfvYQjtv8BCQsCvW0GAAA=</values>
         <workflow_reference/>
@@ -706,10 +706,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 23:12:46</sys_created_on>
         <sys_id>e477c358c31b5210c07d190ed40131f3</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:28</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:25</sys_updated_on>
         <ui_id>90c75d9f-1ca5-4e32-897b-740139de230b</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -732,10 +732,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:41:02</sys_created_on>
         <sys_id>f2f69a98c3175210c07d190ed4013136</sys_id>
-        <sys_mod_count>41</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:29</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:25</sys_updated_on>
         <ui_id>f1de4b87-15f8-4a69-9dbb-dca41183806c</ui_id>
         <values>H4sIAAAAAAAA/+1V32/TMBD+V0ae0yg/2pT2bRqahARMYmMvMKKL7bQWjh1sp12J+r/vHCddRTuBEBIvvMXf+e6+73yf0gWqtU1rzZ26NIavZLD8/BAGXDoMv7tAQs2CZUCUpNxyJYseCIMNiNYFoGm02jCKEOWmEbC7P42QNRdUs6F6AxprWKaDZfdTyO4aVggomcACt1ZzucJ0TvFUxVAlC5KQLM2zNI7T19OkzLMySWkGDDK8NyZejWQv3vVI+KIK1w9xM3ZSmjpaSRwG7NEySZH+sgJhWBjUIClYpXcHRDOgN1I8A2suLZYL3OVHw39g7XQ2cxcrhhoJ88HDsRhG5mGyVpywm8YR9IiFUgw5RIm2lh+8DjdsVkEr7DhsRFqD9VjjSDsWA6Xqdq22H8eG11z2AoegUATE4QQWx1C2lhn3MEywGgsVNb4jDqdwj8n7ZORSRyuBh6gSaotN3eZEQBzxCGcE0TXib3r4HjR3Kt5jGUz2NEswnBT9lmE5q1HCvh9L8b11hLzAQUrhp4EXDNG8sZfYZ8MG1vvwdEWPtrPr0iwn+WyaTtJ5SibTbJ5NyqxkkzyvqryM5xAv8sivKojCWLBsv//SxnFGxwX+2nVX+NSW0QulLz411H0WSURajUO10ZD0ymdlp074Ryz+husWMKtmSTw777ppfs51Z/z2stXSX1jNLcdvOi2O4/9WO7YaN4W3zKCtb/7HTntwtvIdjN8bygg3SOTOYW/Hf4YL7HABODmGtkp/cxKesf0TfPOC3H0GAAA=</values>
         <workflow_reference/>
@@ -757,9 +757,9 @@
         <sys_id>58449e94c3175210c07d190ed4013191</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 19:29:07</sys_updated_on>
@@ -780,9 +780,9 @@
         <sys_id>e0449e94c3175210c07d190ed4013195</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 19:29:07</sys_updated_on>
@@ -803,9 +803,9 @@
         <sys_id>e4449e94c3175210c07d190ed4013198</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 19:29:07</sys_updated_on>
@@ -829,7 +829,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>refund_lifecycle</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.opened_by.manager","label":"Trigger - Record Created or Updated➛Refund Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Refund Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1593670_reembo_0_refund","column_name":"state","choices":[{"image":"","used":false,"label":"Requested","rawLabel":"Requested","selected":false,"missing":false,"reference":false,"value":"1","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Awaiting Manager\u0027s Approval","rawLabel":"Awaiting Manager\u0027s Approval","selected":false,"missing":false,"reference":false,"value":"8","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Awaiting Payment","rawLabel":"Awaiting Payment","selected":false,"missing":false,"reference":false,"value":"2","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Reproved","rawLabel":"Reproved","selected":false,"missing":false,"reference":false,"value":"4","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"image":"","used":false,"label":"Closed","rawLabel":"Closed","selected":false,"missing":false,"reference":false,"value":"3","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}}],"usedInstances":{"5b6adbca-02f6-48ea-ba12-c8ebe9db33e5":["condition"],"f1de4b87-15f8-4a69-9dbb-dca41183806c":["condition"],"592b27af-3c12-4104-86cd-e27a3d0daaa4":["condition"],"9e60a4ed-820d-445b-9818-fddb7c9fc5ee":["condition"]}},{"name":"236c6542-272c-4373-b3be-66ff6b07a096.approval_state","label":"6 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f1de4b87-15f8-4a69-9dbb-dca41183806c":["condition"],"592b27af-3c12-4104-86cd-e27a3d0daaa4":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.506a11d8c3df1210c07d190ed401311b}}","label":"Refund Operational Users Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}},{"name":"Created or Updated_1.current.category","label":"Trigger - Record Created or Updated➛Refund Record➛Category","reference":"x_1593670_reembo_0_refund_category","reference_display":"Refund Category","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund","column_name":"category","usedInstances":{"5a4950e7-892d-4727-8dfe-03196a9582e0":["conditions"]}},{"name":"Created or Updated_1.current.category.name","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"name","usedInstances":{}},{"name":"Created or Updated_1.current.category.assignement_group","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Assignement Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"assignement_group","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["assignment_group"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Refund Record","reference":"x_1593670_reembo_0_refund","reference_display":"Refund","type":"reference","base_type":"reference","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["record"],"236c6542-272c-4373-b3be-66ff6b07a096":["record"],"34a9e282-3060-4887-84c1-e5666360c3fc":["record"],"23503728-1374-4e50-bd7a-df31dbb88b3b":["record"],"c687e319-fb23-46c3-bb91-599d5bfd6a1b":["record"],"c9dbdee5-b0b9-494c-a73c-446c31ed853e":["record"],"60596941-3e1f-47e8-9b04-6f6999d6437e":["record"],"3d4e1c01-e139-4d4a-9e9e-1431a79bac74":["record"],"0393ea20-f66a-4429-aed5-9ffd3a93fa3e":["conditions"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Refund Record","reference":"x_1593670_reembo_0_refund","reference_display":"Refund","type":"reference","base_type":"reference","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["record"],"236c6542-272c-4373-b3be-66ff6b07a096":["record"],"34a9e282-3060-4887-84c1-e5666360c3fc":["record"],"23503728-1374-4e50-bd7a-df31dbb88b3b":["record"],"c687e319-fb23-46c3-bb91-599d5bfd6a1b":["record"],"c9dbdee5-b0b9-494c-a73c-446c31ed853e":["record"],"60596941-3e1f-47e8-9b04-6f6999d6437e":["record"],"3d4e1c01-e139-4d4a-9e9e-1431a79bac74":["record"],"0393ea20-f66a-4429-aed5-9ffd3a93fa3e":["conditions"]},"attributes":{}},{"name":"Created or Updated_1.current.category.assignement_group","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Assignement Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"assignement_group","usedInstances":{"e2843c79-d7e9-4bfb-a92f-4cf790f449db":["assignment_group"]}},{"name":"Created or Updated_1.current.category.name","label":"Trigger - Record Created or Updated➛Refund Record➛Category➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1593670_reembo_0_refund_category","column_name":"name","usedInstances":{}},{"name":"Created or Updated_1.current.category","label":"Trigger - Record Created or Updated➛Refund Record➛Category","reference":"x_1593670_reembo_0_refund_category","reference_display":"Refund Category","type":"reference","base_type":"reference","parent_table_name":"x_1593670_reembo_0_refund","column_name":"category","usedInstances":{"5a4950e7-892d-4727-8dfe-03196a9582e0":["conditions"]}},{"name":"{{static.506a11d8c3df1210c07d190ed401311b}}","label":"Refund Operational Users Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}},{"name":"236c6542-272c-4373-b3be-66ff6b07a096.approval_state","label":"6 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f1de4b87-15f8-4a69-9dbb-dca41183806c":["condition"],"592b27af-3c12-4104-86cd-e27a3d0daaa4":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.state","label":"Trigger - Record Created or Updated➛Refund Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1593670_reembo_0_refund","column_name":"state","choices":[{"rawLabel":"Requested","selected":false,"label":"Requested","reference":false,"used":false,"image":"","missing":false,"value":"1","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"rawLabel":"Awaiting Manager\u0027s Approval","selected":false,"label":"Awaiting Manager\u0027s Approval","reference":false,"used":false,"image":"","missing":false,"value":"8","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"rawLabel":"Awaiting Payment","selected":false,"label":"Awaiting Payment","reference":false,"used":false,"image":"","missing":false,"value":"2","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"rawLabel":"Reproved","selected":false,"label":"Reproved","reference":false,"used":false,"image":"","missing":false,"value":"4","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}},{"rawLabel":"Closed","selected":false,"label":"Closed","reference":false,"used":false,"image":"","missing":false,"value":"3","parameters":{"name":"x_1593670_reembo_0_refund","dependent_values":[""]}}],"usedInstances":{"5b6adbca-02f6-48ea-ba12-c8ebe9db33e5":["condition"],"f1de4b87-15f8-4a69-9dbb-dca41183806c":["condition"],"592b27af-3c12-4104-86cd-e27a3d0daaa4":["condition"],"9e60a4ed-820d-445b-9818-fddb7c9fc5ee":["condition"]}},{"name":"Created or Updated_1.current.opened_by.manager","label":"Trigger - Record Created or Updated➛Refund Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"236c6542-272c-4373-b3be-66ff6b07a096":["approval_conditions"]}}]</label_cache>
         <master>true</master>
         <name>Refund LifeCycle</name>
         <natlang/>
@@ -846,15 +846,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ef8496d4c3175210c07d190ed4013130</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:31</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:28</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -938,14 +938,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:30:25</sys_created_on>
         <sys_id>678496d4c3175210c07d190ed4013133</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:31</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1022,14 +1022,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:30:26</sys_created_on>
         <sys_id>a38496d4c3175210c07d190ed4013145</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:31</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1133,7 +1133,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 19:34:50</sys_updated_on>
@@ -1162,12 +1162,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:30:26</sys_created_on>
         <sys_id>278496d4c3175210c07d190ed401316a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:30</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:46:46</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/9Va23LbNhD9FQ6f2hk1w4skWu6T60vjmcRuJSWdTibhgOBSwpQCFRKkrWby713wIlG8yLrQteMHWwRA7NnF2bOA4E/fVJ844Kvn6pQ4Pqg9lXEBISf+dLUEbBay2eZkIfsWhLtEBOFKPRdhDD01CF0I1XO9pybEj2Gyim5dfAmHpm/kr6t5Nz4/2vpgZA4tzQ4BFk5gyw9ezF0c47Jo6ZPVx3zouGinc+a7IXD1/NPnnrokIU4tpNlvlS4mbVNPB310plHTwB9NM876ujM0Hd1wTQJEwwmrLlewigbPN47CowDuApryiB9BQ1BCIO4991elEY8R+xfnPNNkrweImEIWp/WjnbufNdN5wCjcLwULeNaSocs6Az9e8LsMtQwceCT2RRE4bIkjnA+WEigXaxzeZB48jAuDN4ynPuWdfkCJv34iQoTMiQVEMswe8zHgdhaRKIjDFP34+vJ+fGX/dTG9fHs9tsfXk+n49nJ6faV+T/2yv8ZyxgxhjsXO3Pm+Xu0bBr5cNh4vHETTUyMasqW4oIIlkMP53tvQ9DLgLkujUqMqLbqibarmLhVLqGmtbKWlyQvGkkUQc3E7ubufXr//Y/r3F3hEX2R8iYBSM8XHGdp7I+cqtUdCjrvTe+aXuz+LQR8v3l2+vbj7/XpyML8tzXJdvY3f1CnxuxyrBg9FQ9jKQdrF9Lylnep9TXshsmdJeDTXF4EL/tVmOhU7ZzNkP+PLWMgYFXGxgyWEMh74nrpZ0V/zvzfj+/fF5+k9vvdAuIhsEdjEde1S1KUJ9OWppMliUs+cp3MmjDlOYa/Xs5456QKsV+Idi9DxT5j3RZTTKbHfe5dPOY65EuDC4y+FxiEGWSiFfnq3CzLL18abgA9UlEjkfYjKT+9ZFDE+K6FeG02jUrO5NodkVAqXMtvRicY/Hykb9fgmlbhVStvBSa/TvqGZzlCzZMrr+NHTNUsbEM81Nc05KyV9HUwrSlFZ/Q6T/7DUj1K2+XtwqxrYHLJWpvtePEm2SVa4LjmQK8xlN9D0jqAZElpFKc2DpHJNxqz5qrLd2uFax9sJ4iYE33D3VT45YA+J8/zgAVX6CHlzCP1nFgbZdnNLb+ScCuPKZoTyUx6/nzuUOi8IYTeA7REvJHKbCK93R3zVgbwZpg7WsD/UUNVMKWiD0cihxPA8a2iBrlfkbQOjEdsrlrUn6JQ08bFN4hqZkTQR6gBxOwFgTegOBni6xOV0bBS4rO/HkLKHOXAboYa2L8Wqpmgzn7lQ9B2dzjUrySaBT01p6ozcwcCyqIVHFExprw8O0fvGgIysoQleJaVrUHbBFA1BeMaDS7SKUvMt6f4h63pdJ/bn5GUEQsiCcnid5bj/TN8hmZFSrZOLoaSqEYTKXcB/ud2MUyaAJSw9s3ZVcPdBIRdWeV4YTiDmtYqPpn/D9i3TcqfYEpWXPPVU+JBsu3WqhhDDICPdbNEQa9ikIRsw7TBf6QZhzxRIWpOpaaewL6OTxsRoLe1HcLRCjnLN37Ep6SooeudBMZ4vKObJG6EiA1uPeseA/YFqVLpdOKVQSZtgB15Zna8CBTsUNKIwT8m/F8STu7NSxBwwpD7ueNGgIq2fKsvlMlGHsmbw/wsk20PXyhU2K/kO6UUrUWXVuz2kgmvSkdtWjfpW6462vSRVul9pXTqY9klTFu0sTofNW52zsTyVOLnNgz0LT6deN1ef07xurD9PeX16Zdl1xG5A8fprhgQ9zZbhiEoRcFo5QdAu70Bizr7GYNM54bPsfqMwdINxBkLnSjZEyYZ0qfX+A1lFarXoIGllXuRfEWMDZgjP9Ksry5BAuKr5KhuVeCmvXZ+xzhg76kxxExiJUN7jrkpJVkA+8HtPZ4SJNNCoqetm7S53UL7L3WZpO6CWGmIcW0PmLL0ELZnPV0KwBaSKtb7JVBZE0DlEPQWXK71KSAWNhZFIR79ROzwq0fKVS56ETSWmNU2StgxrlewdzE+qOdOk0Q0srtKnrNI7D0U73Nc7cd/own3zOPf7JxepPCLNVSqPXreV6Yh/eVGbS9Pn/wB7R7zPlSUAAA==</trigger_inputs>
+        <trigger_inputs>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</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance_v2>
@@ -1188,7 +1188,7 @@
         <sys_created_on>2025-01-20 21:10:53</sys_created_on>
         <sys_id>038b6654c3975210c07d190ed401313b</sys_id>
         <sys_mod_count>7</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-21 17:36:38</sys_updated_on>
         <ui_id>c687e319-fb23-46c3-bb91-599d5bfd6a1b</ui_id>
@@ -1210,7 +1210,7 @@
         <sys_created_on>2025-01-20 21:10:53</sys_created_on>
         <sys_id>0b8b6654c3975210c07d190ed401313a</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-21 17:34:24</sys_updated_on>
         <ui_id>23503728-1374-4e50-bd7a-df31dbb88b3b</ui_id>
@@ -1232,7 +1232,7 @@
         <sys_created_on>2025-01-20 21:10:53</sys_created_on>
         <sys_id>4b8b6654c3975210c07d190ed4013139</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-21 17:34:24</sys_updated_on>
         <ui_id>236c6542-272c-4373-b3be-66ff6b07a096</ui_id>
@@ -1254,7 +1254,7 @@
         <sys_created_on>2025-01-20 23:16:10</sys_created_on>
         <sys_id>5238c398c31b5210c07d190ed40131d9</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-21 17:34:24</sys_updated_on>
         <ui_id>0393ea20-f66a-4429-aed5-9ffd3a93fa3e</ui_id>
@@ -1276,7 +1276,7 @@
         <sys_created_on>2025-01-20 19:30:26</sys_created_on>
         <sys_id>6f8496d4c3175210c07d190ed4013169</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-21 17:39:03</sys_updated_on>
         <ui_id>e2843c79-d7e9-4bfb-a92f-4cf790f449db</ui_id>
@@ -1298,7 +1298,7 @@
         <sys_created_on>2025-01-20 23:08:33</sys_created_on>
         <sys_id>7e760318c31b5210c07d190ed40131cc</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-21 17:34:24</sys_updated_on>
         <ui_id>60596941-3e1f-47e8-9b04-6f6999d6437e</ui_id>
@@ -1320,7 +1320,7 @@
         <sys_created_on>2025-01-20 23:08:33</sys_created_on>
         <sys_id>b2760318c31b5210c07d190ed40131cc</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-21 17:34:24</sys_updated_on>
         <ui_id>c9dbdee5-b0b9-494c-a73c-446c31ed853e</ui_id>
@@ -1342,7 +1342,7 @@
         <sys_created_on>2025-01-20 23:08:34</sys_created_on>
         <sys_id>b6760318c31b5210c07d190ed40131cd</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-21 17:39:03</sys_updated_on>
         <ui_id>3d4e1c01-e139-4d4a-9e9e-1431a79bac74</ui_id>
@@ -1368,10 +1368,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 23:08:34</sys_created_on>
         <sys_id>32760318c31b5210c07d190ed40131d2</sys_id>
-        <sys_mod_count>30</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:31</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:28</sys_updated_on>
         <ui_id>88bf3089-3c8d-42c5-90fd-7a3ccff490d6</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -1394,10 +1394,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 17:34:24</sys_created_on>
         <sys_id>35938768c3db9210c07d190ed4013190</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:31</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:28</sys_updated_on>
         <ui_id>9e60a4ed-820d-445b-9818-fddb7c9fc5ee</ui_id>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnQdAjNhLfAgcBCqQN0KS5tIGwIimbKEUqfNhxBf97l3rYRuKiNdpjb+Isd3d2uAO1RHvXeGcf9bW1YqnI/OtzRIQKGH63REHNyZxQrZhwQquiAyKyBulDwPAXz63jDDEmbCNh+3QiRFdCMsOH+g0YrOK4IfP2TUgwzKwSqNIrmtI8m+VZkmSXF2k5y8s0YzlwyLGghJJLvLoYiU3uOiT6JWO3bQJunRFqOZzvhioPI6gNC6zSJCL81XHFkP28Aml5RGpQDJw22z1iOLB7JQ/ASiiH5Ui4/GrFD2yYTafhYsVxRMr74P5YDJL1cHUDDpCKp86b4SpdaUG57cVhvAIv3eIY6y/cN2HUPsVBKcdsLX2tPvWKkH2B8YUQ8RZJ8CZMGqgPc1QPK735PLK8FapTZQhKTUHuT+BQu9K7wKclXPIaCxU1NA0qWjRGr0WXjFzqeCnxEFdSb7Bp2LcYaCAeo7AQ3yJ+08FPYESY4iOWweSeZglW0KLbTSyHMnGyi4jd2oUEaw9DorrFiw8U+5GH4Ypen5BCjWjcNXZe82GOXfR+1Y+2vG0X+Na4yhNtJl8aFj6LNKbeoEAutg6B3e6bT5KcXb53wrnp57nlCqbVNE2mp91yMTvllhM+OdMi2W8sEt7nDx2SJMl/i/y1RYQt+sUeZuua/0OHPAc79D33WlNhkdpjwD6M/4wQ2OJyCXoMbbT5HoY6YLuf3yHsVX0GAAA=</values>
         <workflow_reference/>
@@ -1420,10 +1420,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:53</sys_created_on>
         <sys_id>438b6654c3975210c07d190ed401313d</sys_id>
-        <sys_mod_count>39</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:31</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:28</sys_updated_on>
         <ui_id>592b27af-3c12-4104-86cd-e27a3d0daaa4</ui_id>
         <values>H4sIAAAAAAAA/+1VXW/TMBT9K8XPaZSPNmV9mzpNQhpMYmMvMKIbx2kNjh1sp12J+t93HacfYkOAmMQLb/ax7/U5J/coHVGtbVprbtW5MXwpyfzjfUC4dBiuOyKhZmROqJIlt1zJvAcCsgbRugNcltw0ArZ3R4SuuCg1G7o1oLHGMk3m3Q9HvMSCKoIqPqMxTZMsTaIoeT2Jiywt4qRMgUGCDQUUTODVxZ7G6KpHgp/ys9vG4cZqLpfD/mrocrMHlS4dqzgKCHuwTJYM+VQgDAtIDbIEq/T2gGgG5bUUR2DFpfWCa3gw/Ds+mEyn7mLFUCId3Dhs88EpD1cXYAGptNS2+mCc4pQZb07JKmiFXZxi/sJ146T6EguF2Fcr0dbynXeEHBqcfJjWIAnWOKWO+qCjulmpzfs9y0sue1eGQ6EoiMMOLHpXtNbx6QgTrMZGeQ1Ng47mjVZr3hcjlzpcCtyElVAbfNRNVwjUEQ/RWAgvEb/o4TvQ3Kl4i22w2NMswHCa95OI7dAmRnYBMVuzEGDMUSS6m39rHUUveRCXe39cCdW8sef48poNOnbB08E+memuS9KMZtNJMk5mCR1P0lk6LtKCjbOsqrIimkF0loXIFvWCyI0Fy3a7T20UpTjbXxi1rPzcdQucGFyNlB59aEq3zOOQthpttuFQ9MpXpU9z9I9YvGh24+ey+0xq/zCwyS8C66blN/MaRdH/wP51YLnJfcwGbf3jL5jXexdO/+bBa8oNUrt12Jv9/8odbHG4OD2FNkp/daKO2O4REqH1PvkGAAA=</values>
         <workflow_reference/>
@@ -1446,10 +1446,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:53</sys_created_on>
         <sys_id>8f8b6654c3975210c07d190ed401313b</sys_id>
-        <sys_mod_count>38</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:31</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:28</sys_updated_on>
         <ui_id>f1de4b87-15f8-4a69-9dbb-dca41183806c</ui_id>
         <values>H4sIAAAAAAAA/+1VXW/TMBT9K8XPaZSPNqV9mzpNQhpMYmMvMKIb21ktnDjYTrsS9b9zHSddxYZgAokX3upzfa/POblH7YhqbdNac6POjBH3NVl9vAuIqB2GvztSQ8XJilBVM2GFqvMeCMgWZOsK0DRabTlDiAnTSNjfPq3QjZBM82F6AxpnWK7JqvuhJBg2lhGU8ZLGNE2yNImi5PUsLrK0iBOWAocUB0oouMSr65HW5LJHgp/ytfvG4cZqUd8P58thyvUIKs0cqzgKCH+wvGbIflWCNDwgFdQMrNL7I6I5sKtaPgIbUVscR9zlByO+4YPJfO4ulhwlUu6Lx2M+OObh8hwsIJWW2lYPV+lGCcqNN4fxElpp16eYv3DVOKm+xUIhx24l26p+5x0hxwHjB0KkNUiCN06poz7oKK83avd+ZHkh6t6VoSgVBXk8gUXvitY6Ph3hklc4KK/w26OjuVsA0Tcjlyq8l3gIS6l2+KjbthCoIx6isRBeIH7ew7eghVPxFsdgs6dZgBE07zcTx6FNnBwCYvZmLcGYR5Hobv61dRS95EFc7v1xLVSLxp7hy1s+6DgETxf9ZMe7Lkkzms1nyTRZJHQ6SxfptEgLPs2yssyKaAHRMgv9woPMjQXLD4dPbRSlbIzB565b48ZYziZKTz40zP3M45C2Gm224dD0ynelT/P0j1i8LLtLmJfzOJo/n91Z9lx2n0ntCwOb/CKwblt+M69RFP0P7B8HVpjcx2zQ1j/+F/N658Lp3zx6TYVBajcOezP+f7nCHpdL0FNop/QXJ+oRO3wHOUwpXQkHAAA=</values>
         <workflow_reference/>
@@ -1472,10 +1472,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 21:10:53</sys_created_on>
         <sys_id>c38b6654c3975210c07d190ed401313e</sys_id>
-        <sys_mod_count>40</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:31</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:28</sys_updated_on>
         <ui_id>5b6adbca-02f6-48ea-ba12-c8ebe9db33e5</ui_id>
         <values>H4sIAAAAAAAA/+1V22obMRD9FaPnZdlLbBq/BYdAIW2gSfPShmVW0tqiWknVxY5r/O8d7cU2jUMb2se+rc5oZs4czWF3RAdvgncP+so5sVRk/uUpIUJFDL93REHLyZxQrZjwQquqAxKyBhliYCG142yy0K2R3McIE85I2D6+eoGuhGSWD70MWKzouSXz3S8hwTC/yaDJL2lOy2JWFllWvLvI61lZ5wUrgUOJBSXUXMZWI8nJbYckr7L3WxNx561Qy+F8O1S5H0FtWWSVZwnhz54rxpFPA9LxhLSgGHhttwfEcmB3Sh6BlVAey5F4+dmJH9iwmE7jxYbjiJT3wcOxGoTr4eYaPCCVQH2ww1W60oJy14vDeANB+sUp1l+4M3HUPsVDLcdsLUOrPvaKkEOB8Z0QCQ5JcBMnjdSHOZr7ld58GlneCNWpMgSlpiAPJ/CoXR185LMjXPIWC1UtGIOKVsbqteiSkUubLiUe0kbqDTaNu5cCjcRTFBbSG8SvO/gRrIhTfMAymNzTrMEJWnV7iuVQJk72CXFbt5Dg3HFIVLf6HiLFfuRhuKrXJ6ZQK4y/ws5rPsyxT16u/cnG73YLfGuPO63t5LNh8bPKUxosCuRT5xHY77+GLCtZ+dIPb01/m1suYdpM82x63i0Xs3NuOeOTN1qk+I1F4vv8oUOyLPtvkb+2iHBVv9jDbF3zf+iQp2iHvudBayocUnuI2Pvx/xEDW1wuQU+hjbbf4lBHbP8TppQf/okGAAA=</values>
         <workflow_reference/>
@@ -1498,10 +1498,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 23:16:10</sys_created_on>
         <sys_id>de38c398c31b5210c07d190ed40131e0</sys_id>
-        <sys_mod_count>27</sys_mod_count>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:31</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:28</sys_updated_on>
         <ui_id>90c75d9f-1ca5-4e32-897b-740139de230b</ui_id>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
         <workflow_reference/>
@@ -1523,9 +1523,9 @@
         <sys_id>2b8496d4c3175210c07d190ed4013142</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 19:30:26</sys_updated_on>
@@ -1546,9 +1546,9 @@
         <sys_id>678496d4c3175210c07d190ed401313b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 19:30:25</sys_updated_on>
@@ -1569,9 +1569,9 @@
         <sys_id>e78496d4c3175210c07d190ed4013162</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 19:30:26</sys_updated_on>
@@ -1588,20 +1588,20 @@
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=2e539a54c3175210c07d190ed401318e^sys_idNOT INf38496d4c3175210c07d190ed4013173"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f38496d4c3175210c07d190ed4013173","name":"plan","plan_signature":null}}</plan>
         <plan_id>2e539a54c3175210c07d190ed401318e</plan_id>
-        <snapshot>9486cf6cc3db9210c07d190ed4013134</snapshot>
+        <snapshot>c0bbf1e5c31f5210c07d190ed40131bd</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 19:30:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f38496d4c3175210c07d190ed4013173</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 17:46:32</sys_updated_on>
+        <sys_updated_on>2025-01-24 14:53:29</sys_updated_on>
         <trigger display_value="">d356cb6cc3db9210c07d190ed4013149</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=2e539a54c3175210c07d190ed401318e"/>
