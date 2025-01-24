@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>false</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	if(gs.getUserId.hasRole('x_aaaaaa'))
+	answer = true;
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide the related  list SLA</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 19:28:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ea6204dc31b1210c07d190ed401311f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Hide the related  list SLA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_update_name>sys_ui_policy_8ea6204dc31b1210c07d190ed401311f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 19:37:31</sys_updated_on>
+        <table>x_1593670_reembo_0_refund</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_es_latest_script action="DELETE">
+        <id>8ea6204dc31b1210c07d190ed401311f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 19:37:30</sys_created_on>
+        <sys_id>fe592ccdc31b1210c07d190ed4013150</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 19:37:30</sys_updated_on>
+        <table>sys_ui_policy</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</application>
+        <file_path/>
+        <instance_id>408484101bad86d87d9d2f8dee4bcbb8</instance_id>
+        <instance_name>dev259545</instance_name>
+        <name>sys_ui_policy_8ea6204dc31b1210c07d190ed401311f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+	
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	if(gs.getUserId.hasRole('x_aaaaaa'))
+	answer = true;
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Hide the related  list SLA&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-22 19:28:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8ea6204dc31b1210c07d190ed401311f&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide the related  list SLA&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Refunds App" source="x_1593670_reembo_0"&gt;2bf059dcc39f1210c07d190ed4013142&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Refunds App"&gt;2bf059dcc39f1210c07d190ed4013142&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_8ea6204dc31b1210c07d190ed401311f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-22 19:37:31&lt;/sys_updated_on&gt;&lt;table&gt;x_1593670_reembo_0_refund&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;8ea6204dc31b1210c07d190ed401311f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-22 19:37:30&lt;/sys_created_on&gt;&lt;sys_id&gt;fe592ccdc31b1210c07d190ed4013150&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-22 19:37:30&lt;/sys_updated_on&gt;&lt;table&gt;sys_ui_policy&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-262492810</payload_hash>
+        <record_name>Hide the related  list SLA</record_name>
+        <reverted_from/>
+        <source>29969190c3df1210c07d190ed4013162</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 19:37:31</sys_created_on>
+        <sys_id>0b592c8dc31b1210c07d190ed4013136</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948f85160a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 19:37:31</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>8f592c8d801b12109025984b15658335</update_guid>
+        <update_guid_history>8f592c8d801b12109025984b15658335:-262492810,3e77208dee1b1210fe885c99ea67fb31:-194235967,0837e40daa1b12102cb9db23183cd725:225836525</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 21:06:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>781d925761e948de8972271340056181</sys_id>
+        <sys_metadata>8ea6204dc31b1210c07d190ed401311f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide the related  list SLA</sys_name>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_parent display_value="Refund">dcf26594c3135210c07d190ed40131ce</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope_delete display_value="">1ff4e19919a643d9869c5b0e3e183311</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_8ea6204dc31b1210c07d190ed401311f</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_8ea6204dc31b1210c07d190ed401311f">0b592c8dc31b1210c07d190ed4013136</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 21:06:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action">
+    <sys_ui_policy_rl_action action="DELETE">
+        <list>task_sla.task</list>
+        <sys_class_name>sys_ui_policy_rl_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 19:28:24</sys_created_on>
+        <sys_id>0c47e84dc31b1210c07d190ed4013192</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task_sla.task</sys_name>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_update_name>sys_ui_policy_rl_action_0c47e84dc31b1210c07d190ed4013192</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 19:28:24</sys_updated_on>
+        <ui_policy display_value="Hide the related  list">8ea6204dc31b1210c07d190ed401311f</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_rl_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</application>
+        <file_path/>
+        <instance_id>408484101bad86d87d9d2f8dee4bcbb8</instance_id>
+        <instance_name>dev259545</instance_name>
+        <name>sys_ui_policy_rl_action_0c47e84dc31b1210c07d190ed4013192</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action"><sys_ui_policy_rl_action action="INSERT_OR_UPDATE"><list>task_sla.task</list><sys_class_name>sys_ui_policy_rl_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-22 19:28:24</sys_created_on><sys_id>0c47e84dc31b1210c07d190ed4013192</sys_id><sys_mod_count>0</sys_mod_count><sys_name>task_sla.task</sys_name><sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package><sys_policy/><sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope><sys_update_name>sys_ui_policy_rl_action_0c47e84dc31b1210c07d190ed4013192</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-22 19:28:24</sys_updated_on><ui_policy display_value="Hide the related  list">8ea6204dc31b1210c07d190ed401311f</ui_policy><visible>false</visible></sys_ui_policy_rl_action></record_update>]]></payload>
+        <payload_hash>1079575612</payload_hash>
+        <record_name>task_sla.task</record_name>
+        <reverted_from/>
+        <source>29969190c3df1210c07d190ed4013162</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 19:28:25</sys_created_on>
+        <sys_id>a1472c4dc31b1210c07d190ed4013132</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948f7cbfe80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 19:28:25</sys_updated_on>
+        <type>UI Policy Related List Action</type>
+        <update_guid>a5472c4d791b1210b5f0c665770c9231</update_guid>
+        <update_guid_history>a5472c4d791b1210b5f0c665770c9231:1079575612</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 21:06:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_rl_action">sys_ui_policy_rl_action</sys_db_object>
+        <sys_id>9d5d900fd30045f4b37ed6cb63086590</sys_id>
+        <sys_metadata>0c47e84dc31b1210c07d190ed4013192</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task_sla.task</sys_name>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope_delete display_value="">1ff4e19919a643d9869c5b0e3e183311</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_rl_action_0c47e84dc31b1210c07d190ed4013192</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_rl_action_0c47e84dc31b1210c07d190ed4013192">a1472c4dc31b1210c07d190ed4013132</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 21:06:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

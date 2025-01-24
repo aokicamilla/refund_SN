@@ -4,13 +4,13 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>71612facc35f9210c07d190ed40131ef</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>e55ec699c39b1210c07d190ed401311f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Refund">7b2edba8c35f9210c07d190ed4013186</sys_ui_formatter>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b9612facc35f9210c07d190ed40131fc</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>e55ec699c39b1210c07d190ed4013120</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>number</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b1612facc35f9210c07d190ed40131fd</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>6d5ec699c39b1210c07d190ed4013120</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>amount</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b9612facc35f9210c07d190ed40131fd</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>e15ec699c39b1210c07d190ed4013121</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>amount_in_dollars</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b1612facc35f9210c07d190ed40131fe</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>695ec699c39b1210c07d190ed4013121</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>opened_by</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b9612facc35f9210c07d190ed40131fe</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>ed5ec699c39b1210c07d190ed4013121</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b1612facc35f9210c07d190ed40131ff</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>655ec699c39b1210c07d190ed4013122</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>state</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b9612facc35f9210c07d190ed40131ff</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>e95ec699c39b1210c07d190ed4013122</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>expense_date</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b1616facc35f9210c07d190ed4013100</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>615ec699c39b1210c07d190ed4013123</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>category</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b9616facc35f9210c07d190ed4013100</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>e55ec699c39b1210c07d190ed4013123</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>assignment_group</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b1616facc35f9210c07d190ed4013101</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>6d5ec699c39b1210c07d190ed4013123</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>.end_split</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b9616facc35f9210c07d190ed4013101</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>e15ec699c39b1210c07d190ed4013124</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>description</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b1616facc35f9210c07d190ed4013102</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>695ec699c39b1210c07d190ed4013124</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,13 +186,69 @@
             <element>reproval_reason</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 19:44:39</sys_created_on>
-            <sys_id>b9616facc35f9210c07d190ed4013102</sys_id>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>ed5ec699c39b1210c07d190ed4013124</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 19:44:39</sys_updated_on>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>655ec699c39b1210c07d190ed4013125</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>integration_state</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>e95ec699c39b1210c07d190ed4013125</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>615ec699c39b1210c07d190ed4013126</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>integration_error_message</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-23 21:37:10</sys_created_on>
+            <sys_id>e55ec699c39b1210c07d190ed4013126</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund" display_value="Refund" name="x_1593670_reembo_0_refund" sys_domain="global" view="Default view">e1612facc35f9210c07d190ed40131d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-23 21:37:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -210,9 +266,9 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1593670_reembo_0_refund</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+            <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+            <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
             <sys_update_name>sys_ui_section_e1612facc35f9210c07d190ed40131d8</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-01-21 19:44:38</sys_updated_on>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>number</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 16:53:52</sys_created_on>
+        <sys_id>ab2a3e2cc39b9210c07d190ed4013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ab2a3e2cc39b9210c07d190ed4013118</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 16:53:52</sys_updated_on>
+        <table>x_1593670_reembo_0_refund</table>
+        <ui_policy display_value="Read Only Closed /Reproved Cases">f5f9f62cc39b9210c07d190ed40131a1</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=ab2a3e2cc39b9210c07d190ed4013118"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</application>
+        <file_path/>
+        <instance_id>408484101bad86d87d9d2f8dee4bcbb8</instance_id>
+        <instance_name>dev259545</instance_name>
+        <name>sys_ui_policy_action_ab2a3e2cc39b9210c07d190ed4013118</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>number</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-21 16:53:52</sys_created_on><sys_id>ab2a3e2cc39b9210c07d190ed4013118</sys_id><sys_mod_count>0</sys_mod_count><sys_name>number</sys_name><sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package><sys_policy/><sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope><sys_update_name>sys_ui_policy_action_ab2a3e2cc39b9210c07d190ed4013118</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-21 16:53:52</sys_updated_on><table>x_1593670_reembo_0_refund</table><ui_policy display_value="Read Only Closed /Reproved Cases">f5f9f62cc39b9210c07d190ed40131a1</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=ab2a3e2cc39b9210c07d190ed4013118"/></record_update>]]></payload>
+        <payload_hash>899885161</payload_hash>
+        <record_name>number</record_name>
+        <reverted_from/>
+        <source>29969190c3df1210c07d190ed4013162</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 16:53:52</sys_created_on>
+        <sys_id>8c5abe2cc39b9210c07d190ed401315e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19489c8e8400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 16:53:52</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>805abe2c7f9b9210737ea17a5c6a045e</update_guid>
+        <update_guid_history>805abe2c7f9b9210737ea17a5c6a045e:899885161</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 21:06:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>3d080720b1c943f5867a139880dcce89</sys_id>
+        <sys_metadata>ab2a3e2cc39b9210c07d190ed4013118</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope_delete display_value="">1ff4e19919a643d9869c5b0e3e183311</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_ab2a3e2cc39b9210c07d190ed4013118</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_ab2a3e2cc39b9210c07d190ed4013118">8c5abe2cc39b9210c07d190ed401315e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 21:06:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
