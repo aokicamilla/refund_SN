@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4ad5b095c3d31210c07d190ed4013164</sys_id>
-        <sys_mod_count>80</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Integration Freecurrency BRL/USD</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_4ad5b095c3d31210c07d190ed4013164</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-24 13:32:58</sys_updated_on>
+        <sys_updated_on>2025-02-13 21:11:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -542,11 +542,11 @@
         <sys_created_on>2025-01-23 17:51:50</sys_created_on>
         <sys_id>28ca5115c3971210c07d190ed4013140</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>base_currency</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_41d678d5c3d31210c07d190ed40131a8_base_currency_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 17:51:50</sys_updated_on>
         <url/>
@@ -565,11 +565,11 @@
         <sys_created_on>2025-01-23 15:20:00</sys_created_on>
         <sys_id>2c087059c3d31210c07d190ed40131e2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>endpoint</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_41d678d5c3d31210c07d190ed40131a8_endpoint_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 15:20:00</sys_updated_on>
         <url/>
@@ -588,11 +588,11 @@
         <sys_created_on>2025-01-23 15:20:01</sys_created_on>
         <sys_id>34087059c3d31210c07d190ed40131e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Apikey</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_41d678d5c3d31210c07d190ed40131a8_apikey_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 15:20:01</sys_updated_on>
         <url/>
@@ -611,11 +611,11 @@
         <sys_created_on>2025-01-23 17:51:50</sys_created_on>
         <sys_id>e4ca5115c3971210c07d190ed401314a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>currencies</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_41d678d5c3d31210c07d190ed40131a8_currencies_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 17:51:50</sys_updated_on>
         <url/>
@@ -1109,11 +1109,11 @@
         <sys_created_on>2025-01-23 16:38:45</sys_created_on>
         <sys_id>0e0a819dc3171210c07d190ed40131a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f90a819dc3171210c07d190ed4013197_root_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 16:38:45</sys_updated_on>
         <url/>
@@ -1480,11 +1480,11 @@
         <sys_created_on>2025-01-23 18:31:53</sys_created_on>
         <sys_id>9be3e551c3d71210c07d190ed40131b0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>USD</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4ad5b095c3d31210c07d190ed4013164_usd_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 18:31:53</sys_updated_on>
         <url/>
@@ -1503,11 +1503,11 @@
         <sys_created_on>2025-01-23 15:14:51</sys_created_on>
         <sys_id>c1d678d5c3d31210c07d190ed40131db</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4ad5b095c3d31210c07d190ed4013164___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 15:14:51</sys_updated_on>
         <url/>
@@ -1526,11 +1526,11 @@
         <sys_created_on>2025-01-23 15:14:51</sys_created_on>
         <sys_id>c5d678d5c3d31210c07d190ed40131d4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4ad5b095c3d31210c07d190ed4013164___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 15:14:51</sys_updated_on>
         <url/>
@@ -2092,11 +2092,11 @@
         <sys_created_on>2025-01-23 16:42:53</sys_created_on>
         <sys_id>22fa09ddc3171210c07d190ed401313e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>endpoint</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_2afa09ddc3171210c07d190ed4013136_endpoint_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 16:42:53</sys_updated_on>
         <url/>
@@ -2115,11 +2115,11 @@
         <sys_created_on>2025-01-23 17:51:57</sys_created_on>
         <sys_id>2acad115c3971210c07d190ed401315b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>base_currency</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_2afa09ddc3171210c07d190ed4013136_base_currency_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 17:51:57</sys_updated_on>
         <url/>
@@ -2138,11 +2138,11 @@
         <sys_created_on>2025-01-23 16:42:53</sys_created_on>
         <sys_id>2afa09ddc3171210c07d190ed4013141</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Apikey</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_2afa09ddc3171210c07d190ed4013136_apikey_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 16:42:53</sys_updated_on>
         <url/>
@@ -2161,11 +2161,11 @@
         <sys_created_on>2025-01-23 17:51:57</sys_created_on>
         <sys_id>e6cad115c3971210c07d190ed4013165</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>currencies</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_2afa09ddc3171210c07d190ed4013136_currencies_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 17:51:57</sys_updated_on>
         <url/>
@@ -2659,11 +2659,11 @@
         <sys_created_on>2025-01-23 16:42:53</sys_created_on>
         <sys_id>b2fa09ddc3171210c07d190ed4013180</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f2fa09ddc3171210c07d190ed4013179_root_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 16:42:53</sys_updated_on>
         <url/>
@@ -3030,11 +3030,11 @@
         <sys_created_on>2025-01-23 18:32:00</sys_created_on>
         <sys_id>4df36951c3d71210c07d190ed40131f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>USD</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_62fa09ddc3171210c07d190ed401312e_usd_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 18:32:00</sys_updated_on>
         <url/>
@@ -3053,11 +3053,11 @@
         <sys_created_on>2025-01-23 16:42:54</sys_created_on>
         <sys_id>72fa09ddc3171210c07d190ed401319d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_62fa09ddc3171210c07d190ed401312e___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 16:42:54</sys_updated_on>
         <url/>
@@ -3076,11 +3076,11 @@
         <sys_created_on>2025-01-23 16:42:54</sys_created_on>
         <sys_id>f2fa09ddc3171210c07d190ed40131a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_62fa09ddc3171210c07d190ed401312e___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 16:42:54</sys_updated_on>
         <url/>
@@ -3090,6 +3090,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>4ad5b095c3d31210c07d190ed4013164</sys_id>
         <latest_snapshot>62fa09ddc3171210c07d190ed401312e</latest_snapshot>
-        <compiler_build>glide-xanadu-07-02-2024__patch4-11-22-2024_12-02-2024_1408.zip</compiler_build>
+        <compiler_build>glide-xanadu-07-02-2024__patch4a-12-16-2024_01-07-2025_0947.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f94b891dc3d31210c07d190ed4013104</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Convert Currencies</sys_name>
         <sys_overrides/>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name>sys_hub_flow_f94b891dc3d31210c07d190ed4013104</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-24 14:53:43</sys_updated_on>
+        <sys_updated_on>2025-02-13 21:11:58</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -384,8 +384,8 @@
         <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Convert Seconds into duration">649a39b8c30b5610c07d190ed401315a</action_type>
-        <action_type_parent display_value="Convert Seconds into duration">c0e9b1f4c30b5610c07d190ed40131cc</action_type_parent>
+        <action_type display_value="">649a39b8c30b5610c07d190ed401315a</action_type>
+        <action_type_parent display_value="">c0e9b1f4c30b5610c07d190ed40131cc</action_type_parent>
         <attributes/>
         <comment/>
         <compiled_snapshot>649a39b8c30b5610c07d190ed401315a</compiled_snapshot>
@@ -1207,11 +1207,11 @@
         <sys_created_on>2025-01-23 16:52:52</sys_created_on>
         <sys_id>784d0d51c3571210c07d190ed4013141</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f94b891dc3d31210c07d190ed4013104_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 16:52:52</sys_updated_on>
         <url/>
@@ -1230,11 +1230,11 @@
         <sys_created_on>2025-01-23 16:52:52</sys_created_on>
         <sys_id>b84d0d51c3571210c07d190ed401313e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_f94b891dc3d31210c07d190ed4013104_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 16:52:52</sys_updated_on>
         <url/>
@@ -1516,8 +1516,8 @@
         <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Convert Seconds into duration">649a39b8c30b5610c07d190ed401315a</action_type>
-        <action_type_parent display_value="Convert Seconds into duration">c0e9b1f4c30b5610c07d190ed40131cc</action_type_parent>
+        <action_type display_value="">649a39b8c30b5610c07d190ed401315a</action_type>
+        <action_type_parent display_value="">c0e9b1f4c30b5610c07d190ed40131cc</action_type_parent>
         <attributes/>
         <comment/>
         <compiled_snapshot>649a39b8c30b5610c07d190ed401315a</compiled_snapshot>
@@ -2405,11 +2405,11 @@
         <sys_created_on>2025-01-23 17:20:55</sys_created_on>
         <sys_id>bfa3d999c3571210c07d190ed401317b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3ba3d999c3571210c07d190ed4013164_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 17:20:55</sys_updated_on>
         <url/>
@@ -2428,11 +2428,11 @@
         <sys_created_on>2025-01-23 17:20:55</sys_created_on>
         <sys_id>ffa3d999c3571210c07d190ed4013174</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
         <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3ba3d999c3571210c07d190ed4013164_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-23 17:20:55</sys_updated_on>
         <url/>
@@ -2451,7 +2451,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"6cb31d99c3571210c07d190ed4013124","name":"plan","plan_signature":null}}</plan>
         <plan_id>f94b891dc3d31210c07d190ed4013104</plan_id>
-        <snapshot>b3abf1e5c31f5210c07d190ed401310f</snapshot>
+        <snapshot>3ba3d999c3571210c07d190ed4013164</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-23 17:20:58</sys_created_on>
         <sys_domain>global</sys_domain>

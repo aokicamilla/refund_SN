@@ -28,7 +28,7 @@
     </sys_security_acl>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</application>
+        <application display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</application>
         <file_path/>
         <instance_id>408484101bad86d87d9d2f8dee4bcbb8</instance_id>
         <instance_name>dev259545</instance_name>
@@ -61,10 +61,10 @@
         <sys_metadata>c1499558c3df1210c07d190ed40131d5</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1593670_reembo_0_category</sys_name>
-        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_parent display_value="">73399558c3df1210c07d190ed40131a8</sys_parent>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_scope_delete display_value="">1ff4e19919a643d9869c5b0e3e183311</sys_scope_delete>
         <sys_update_name>sys_security_acl_c1499558c3df1210c07d190ed40131d5</sys_update_name>
         <sys_update_version display_value="sys_security_acl_c1499558c3df1210c07d190ed40131d5">41491958c3df1210c07d190ed401310f</sys_update_version>

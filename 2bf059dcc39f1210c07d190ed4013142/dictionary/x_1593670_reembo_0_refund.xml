@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="dcf26594c3135210c07d190ed40131ce" extends="task" label="Refund" max_length="40" name="x_1593670_reembo_0_refund" type="collection">
-        <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Integration Success" value="3"/>
-                <element inactive_on_update="false" label="Starting" sequence="100" value="1"/>
-                <element inactive_on_update="false" label="Integration Failure" value="4"/>
-                <element inactive_on_update="false" label="Integrating" value="2"/>
-            </choice>
-        </element>
+        <element default="0" label="Amount in Dollars" max_length="10" name="amount_in_dollars" type="float"/>
+        <element default="0" label="Amount" max_length="10" name="amount" type="currency"/>
+        <element label="Reproval Reason" max_length="2000" name="reproval_reason" type="string"/>
         <element choice="1" label="Category" max_length="32" name="category" reference="x_1593670_reembo_0_refund_category" type="reference">
             <choice/>
         </element>
-        <element label="Integration Error Message" max_length="250" name="integration_error_message" type="string"/>
-        <element default="0" label="Amount" max_length="10" name="amount" type="currency"/>
         <element label="Expense Date" max_length="40" name="expense_date" type="glide_date"/>
-        <element default="0" label="Amount in Dollars" max_length="10" name="amount_in_dollars" type="float"/>
-        <element label="Reproval Reason" max_length="2000" name="reproval_reason" type="string"/>
+        <element label="Integration Error Message" max_length="250" name="integration_error_message" type="string"/>
+        <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integration Failure" value="4"/>
+                <element inactive_on_update="false" label="Integration Success" value="3"/>
+                <element inactive_on_update="false" label="Integrating" value="2"/>
+                <element inactive_on_update="false" label="Starting" sequence="100" value="1"/>
+            </choice>
+        </element>
     </element>
 </database>

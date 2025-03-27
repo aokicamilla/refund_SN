@@ -17,7 +17,7 @@
     </sys_security_acl_role>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</application>
+        <application display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</application>
         <file_path/>
         <instance_id>408484101bad86d87d9d2f8dee4bcbb8</instance_id>
         <instance_name>dev259545</instance_name>
@@ -41,7 +41,7 @@
         <update_guid_history>6849d55833df1210ecc3211e0686fe80:1262075158</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1593670_reembo_0_category.x_1593670_reembo_0.refund_rh_approver">36c3add4c3135210c07d190ed4013143</sys_audit_delete>
+        <sys_audit_delete display_value="">36c3add4c3135210c07d190ed4013143</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-20 15:57:23</sys_created_on>
@@ -50,10 +50,10 @@
         <sys_metadata>a449d558c3df1210c07d190ed401317e</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1593670_reembo_0_category.x_1593670_reembo_0.refund_rh_approver</sys_name>
-        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_parent display_value="">a449d558c3df1210c07d190ed401317b</sys_parent>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_scope_delete display_value="">1ff4e19919a643d9869c5b0e3e183311</sys_scope_delete>
         <sys_update_name>sys_security_acl_role_a449d558c3df1210c07d190ed401317e</sys_update_name>
         <sys_update_version display_value="sys_security_acl_role_a449d558c3df1210c07d190ed401317e">6449d558c3df1210c07d190ed4013181</sys_update_version>

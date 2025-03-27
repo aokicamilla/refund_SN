@@ -41,7 +41,7 @@
         <update_guid_history>1744eba0689f921068c7c682bb4e1990:1086555037</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1593670_reembo_0_refund.opened_by.x_1593670_reembo_0.refund_rh_manager">39e10a59c35b1210c07d190ed4013101</sys_audit_delete>
+        <sys_audit_delete display_value="">39e10a59c35b1210c07d190ed4013101</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-23 20:42:51</sys_created_on>

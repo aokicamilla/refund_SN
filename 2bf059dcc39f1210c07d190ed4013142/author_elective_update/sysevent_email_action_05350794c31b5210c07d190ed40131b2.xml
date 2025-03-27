@@ -77,7 +77,7 @@
     </sysevent_email_action>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</application>
+        <application display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</application>
         <file_path/>
         <instance_id>408484101bad86d87d9d2f8dee4bcbb8</instance_id>
         <instance_name>dev259545</instance_name>
@@ -115,10 +115,10 @@
         <sys_metadata>05350794c31b5210c07d190ed40131b2</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Refund Approved (wait for completion)</sys_name>
-        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_parent display_value="Refund">dcf26594c3135210c07d190ed40131ce</sys_parent>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_scope_delete display_value="">1ff4e19919a643d9869c5b0e3e183311</sys_scope_delete>
         <sys_update_name>sysevent_email_action_05350794c31b5210c07d190ed40131b2</sys_update_name>
         <sys_update_version display_value="sysevent_email_action_05350794c31b5210c07d190ed40131b2">85350794c31b5210c07d190ed40131b4</sys_update_version>

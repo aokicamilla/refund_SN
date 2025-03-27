@@ -10,9 +10,9 @@
         <sys_id>d8f2a594c3135210c07d190ed4013103</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>REFUND</sys_name>
-        <sys_package display_value="Reembolso" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
+        <sys_package display_value="Refunds App" source="x_1593670_reembo_0">2bf059dcc39f1210c07d190ed4013142</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Reembolso">2bf059dcc39f1210c07d190ed4013142</sys_scope>
+        <sys_scope display_value="Refunds App">2bf059dcc39f1210c07d190ed4013142</sys_scope>
         <sys_update_name>sys_number_d8f2a594c3135210c07d190ed4013103</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-20 16:15:20</sys_updated_on>

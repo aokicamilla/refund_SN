@@ -4,7 +4,7 @@
         <can_share>false</can_share>
         <can_write>false</can_write>
         <dashboard display_value="Refunds Dashboard">e0782f64c39f9210c07d190ed40131ad</dashboard>
-        <group display_value="Refund RH Managers" name="Refund RH Managers">0e53d590c3df1210c07d190ed40131e3</group>
+        <group display_value="">0e53d590c3df1210c07d190ed40131e3</group>
         <owner>false</owner>
         <role/>
         <sys_class_name>par_dashboard_permission</sys_class_name>
